@@ -2,7 +2,7 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
@@ -10,20 +10,35 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_1793782_hr_rei_0_reimbursement</name>
         <operation display_value="write">write</operation>
-        <script/>
+        <script><![CDATA[(function(){
+	if(!current.assignment_group)
+	return false;
+	return gs.getUser().isMemberOf(current.assignment_group.toString());
+})();]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-22 15:15:52</sys_created_on>
-        <sys_id>d3c78703c38c3210063ffacc050131dd</sys_id>
+        <sys_created_on>2025-09-22 17:58:24</sys_created_on>
+        <sys_id>965c6f47c3407210063ffacc050131fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
-        <sys_update_name>sys_security_acl_d3c78703c38c3210063ffacc050131dd</sys_update_name>
+        <sys_update_name>sys_security_acl_965c6f47c3407210063ffacc050131fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 15:15:52</sys_updated_on>
+        <sys_updated_on>2025-09-22 17:58:24</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>965c6f47c3407210063ffacc050131fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:58:20</sys_created_on>
+        <sys_id>9bfcab47c3407210063ffacc05013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:58:20</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

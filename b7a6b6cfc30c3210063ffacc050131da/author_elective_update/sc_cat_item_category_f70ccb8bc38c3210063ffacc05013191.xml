@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Reimbursement Request">0b1b874bc38c3210063ffacc050131b8</sc_cat_item>
+        <sc_category display_value="HR Reimbursements">66eb0b8bc38c3210063ffacc05013190</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 15:34:27</sys_created_on>
+        <sys_id>f70ccb8bc38c3210063ffacc05013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Reimbursements.Reimbursement Request</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name>sc_cat_item_category_f70ccb8bc38c3210063ffacc05013191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 15:34:27</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sc_cat_item_category_f70ccb8bc38c3210063ffacc05013191</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Reimbursement Request">0b1b874bc38c3210063ffacc050131b8</sc_cat_item><sc_category display_value="HR Reimbursements">66eb0b8bc38c3210063ffacc05013190</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 15:34:27</sys_created_on><sys_id>f70ccb8bc38c3210063ffacc05013191</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Reimbursements.Reimbursement Request</sys_name><sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package><sys_policy/><sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope><sys_update_name>sc_cat_item_category_f70ccb8bc38c3210063ffacc05013191</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 15:34:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1558781830</payload_hash>
+        <record_name>HR Reimbursements.Reimbursement Request</record_name>
+        <reverted_from/>
+        <source>ae4d9343c3007210063ffacc0501319f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 16:49:45</sys_created_on>
+        <sys_id>7a4dd343c3007210063ffacc050131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997254d3f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 16:49:45</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>3e4dd3438c0072105f9288972265dced</update_guid>
+        <update_guid_history>3e4dd3438c0072105f9288972265dced:-1558781830,330ccb8bd88c3210b0afd1fd2c210495:-783814138</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Reimbursements.Reimbursement Request">724dd343c3007210063ffacc050131f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 16:49:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3fef5a4482604bd492329aa52a182010</sys_id>
+        <sys_metadata>f70ccb8bc38c3210063ffacc05013191</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Reimbursements.Reimbursement Request</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f70ccb8bc38c3210063ffacc05013191</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f70ccb8bc38c3210063ffacc05013191">7a4dd343c3007210063ffacc050131ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 16:49:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
