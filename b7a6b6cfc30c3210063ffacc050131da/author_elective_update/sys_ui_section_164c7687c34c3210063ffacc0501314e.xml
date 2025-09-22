@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="164c7687c34c3210063ffacc0501314e" sys_domain="global" table="x_1793782_hr_rei_0_reimbursement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receipt</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 14:25:33</sys_created_on>
+            <sys_id>d24c7687c34c3210063ffacc05013164</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1793782_hr_rei_0_reimbursement" sys_domain="global" view="Default view">164c7687c34c3210063ffacc0501314e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 14:25:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1793782_hr_rei_0_reimbursement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 14:25:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>164c7687c34c3210063ffacc0501314e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+            <sys_update_name>sys_ui_section_164c7687c34c3210063ffacc0501314e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 14:25:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sys_ui_section_164c7687c34c3210063ffacc0501314e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="164c7687c34c3210063ffacc0501314e" sys_domain="global" table="x_1793782_hr_rei_0_reimbursement" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>receipt</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 14:25:33</sys_created_on><sys_id>d24c7687c34c3210063ffacc05013164</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1793782_hr_rei_0_reimbursement" sys_domain="global" view="Default view">164c7687c34c3210063ffacc0501314e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 14:25:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1793782_hr_rei_0_reimbursement</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 14:25:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>164c7687c34c3210063ffacc0501314e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1793782_hr_rei_0_reimbursement</sys_name><sys_overrides/><sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package><sys_policy/><sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope><sys_update_name>sys_ui_section_164c7687c34c3210063ffacc0501314e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 14:25:32</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>601752806</payload_hash>
+        <record_name>Reimbursement</record_name>
+        <reverted_from/>
+        <source>37a6b6cfc30c3210063ffacc050131df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 14:25:33</sys_created_on>
+        <sys_id>524c7687c34c3210063ffacc05013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19971d0cc120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 14:25:33</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d64c7687d34c321034e0b08d26219665</update_guid>
+        <update_guid_history>d64c7687d34c321034e0b08d26219665:601752806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 14:29:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1bec436658f040fa86bc31d2e648f424</sys_id>
+        <sys_metadata>164c7687c34c3210063ffacc0501314e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent display_value="Reimbursement">831bba07c34c3210063ffacc050131c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_164c7687c34c3210063ffacc0501314e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_164c7687c34c3210063ffacc0501314e">524c7687c34c3210063ffacc05013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 14:29:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

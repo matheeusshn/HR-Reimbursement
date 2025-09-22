@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="831bba07c34c3210063ffacc050131c5" extends="task" label="Reimbursement" max_length="40" name="x_1793782_hr_rei_0_reimbursement" type="collection">
+        <element label="Amount USD" max_length="40" name="amount_usd" type="float"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Amount BRL" max_length="40" name="amount_brl" type="float"/>
+        <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
+        <element label="Receipt" max_length="40" name="receipt" type="file_attachment"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+    </element>
+</database>
