@@ -37,7 +37,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello, ${requester}!</p>
-<p>Your reimbursement request in the category: <strong>${category},</strong> for the amount of <strong>R$${amount_brl}.00</strong> is <strong>Reproved</strong>!</p>
+<p>Your reimbursement request in the category: <strong>${category},</strong> for the amount of <strong>R$${amount_brl},00</strong> is <strong>Reproved</strong>!</p>
 <p>The reproval reason is: ${reproval_reason}</p>
 <p>If you want to submit another request, click&nbsp;<a href="https://dev265349.service-now.com/sp?id=sc_cat_item&amp;sys_id=0b1b874bc38c3210063ffacc050131b8&amp;sysparm_category=66eb0b8bc38c3210063ffacc05013190">here!</a></p>]]></message_html>
         <message_list/>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>619e7b0fc3807210063ffacc050131d1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Reimbursement - Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name>sysevent_email_action_619e7b0fc3807210063ffacc050131d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 16:50:26</sys_updated_on>
+        <sys_updated_on>2025-09-23 18:13:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

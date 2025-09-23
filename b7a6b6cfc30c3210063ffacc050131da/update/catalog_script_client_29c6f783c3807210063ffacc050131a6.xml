@@ -19,21 +19,18 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading) {
+   if (isLoading || newValue == '') {
       return;
    }
-   if (!newValue) {
 	g_form.hideFieldMsg('amount_brl', true);
-   }
 
-   var amount = parseFloat(newValue);
+	var regex = /^\d{1,7}(.\d{1,2})?$/;
 
-   if (isNaN(amount) || amount <= 0) {
-	g_form.showFieldMsg('amount_brl', 'Amount must be a valid number', 'error');
+   if (!regex.test(newValue)){
 	g_form.clearValue('amount_brl');
+	g_form.showFieldMsg('amount_brl', 'Use only numbers (max 7 digits) and comma for cents.', 'error');
 	return;
-   } 
-	g_form.hideFieldMsg('amount_brl', true);
+   }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -41,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>29c6f783c3807210063ffacc050131a6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Valid amount</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
@@ -49,7 +46,7 @@
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name>catalog_script_client_29c6f783c3807210063ffacc050131a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 19:09:14</sys_updated_on>
+        <sys_updated_on>2025-09-23 18:16:59</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
