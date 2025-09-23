@@ -52,7 +52,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Reimbursement request number: ${number} is Approved!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>242e330fc3807210063ffacc0501318d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reimbursement - Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name>sysevent_email_action_242e330fc3807210063ffacc0501318d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 19:23:52</sys_updated_on>
+        <sys_updated_on>2025-09-23 14:24:39</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

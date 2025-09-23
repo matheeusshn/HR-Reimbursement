@@ -4,7 +4,7 @@
         <application display_value="HR Reimbursement">58af4453c3047210063ffacc050131ab</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1793782_hr_rei_0_category">resolver_group=0472a30bc3007210063ffacc05013123^EQ<item display_table="sys_user_group" display_value="HR - Office Supplies Reimbursement" endquery="false" field="resolver_group" goto="false" newquery="false" operator="=" or="false" value="0472a30bc3007210063ffacc05013123"/>
+        <filter table="x_1793782_hr_rei_0_reimbursement">category=9563634bc3007210063ffacc050131d4^EQ<item display_table="x_1793782_hr_rei_0_category" display_value="Office Supplies" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="9563634bc3007210063ffacc050131d4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -14,7 +14,7 @@
         <map_page/>
         <mobile_title>New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1793782_hr_rei_0_category</name>
+        <name>x_1793782_hr_rei_0_reimbursement</name>
         <order>1000</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2722dcd3c3047210063ffacc0501315d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Office Supplies</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name>sys_app_module_2722dcd3c3047210063ffacc0501315d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 20:45:48</sys_updated_on>
+        <sys_updated_on>2025-09-23 12:12:07</sys_updated_on>
         <timeline_page/>
         <title>Office Supplies</title>
         <uncancelable>false</uncancelable>
