@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,timeFromCreateToActivate=20130000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,timeFromCreateToActivate=94116000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>copy_of_reimbursement__manager_approval</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.requester.manager","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"467eb392-3ca8-449a-8de1-fd16b57976de.record","label":"10 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Reimbursement Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"state","choices":[{"selected":false,"missing":false,"rawLabel":"Requested","label":"Requested","used":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Approval","label":"Awaiting Approval","used":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Approved","label":"Approved","used":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Payment","label":"Awaiting Payment","used":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Closed","label":"Closed","used":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Rejected","label":"Rejected","used":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Canceled","label":"Canceled","used":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}}],"usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]}},{"name":"Created or Updated_1.current.category.resolver_group","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"]},"attributes":{}},{"name":"{{static.6b680b47c38c3210063ffacc05013170}}","label":"HR Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"a8746a26-d110-4336-882e-8704421894c5.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"e59351c5-3f35-4343-9846-aba922f4ebf9":["condition"],"a4517328-bd63-4ede-a36c-a1410b07b500":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.category.resolver_group","label":"Trigger - Record Created➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"91d4ad39-c15e-4789-a117-a803621af7ce":["record"],"e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170":["record"]},"attributes":{}},{"name":"097c1bbe-0463-432f-852a-172ebc3029fd.record","label":"8 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"4647ebd5-7eac-4c8b-b930-82929074ed69.currency.data.USD","label":"12 - Integration Freecurrency API➛Currency➛data➛USD","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"57c7b50f-924c-47c3-a764-5bd3b09ff1c2":["amount_usd"]},"attributes":{}},{"name":"Created or Updated_1.current.amount_brl","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Amount BRL","reference":"","reference_display":"Amount BRL","type":"currency","base_type":"currency","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"amount_brl","usedInstances":{"4647ebd5-7eac-4c8b-b930-82929074ed69":["amount_brl"]}},{"name":"097c1bbe-0463-432f-852a-172ebc3029fd.record","label":"11 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"91d4ad39-c15e-4789-a117-a803621af7ce":["record"],"e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170":["record"],"57c7b50f-924c-47c3-a764-5bd3b09ff1c2":["record"]},"attributes":{}},{"name":"Created_1.current.category.resolver_group","label":"Trigger - Record Created➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"a8746a26-d110-4336-882e-8704421894c5.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"e59351c5-3f35-4343-9846-aba922f4ebf9":["condition"],"a4517328-bd63-4ede-a36c-a1410b07b500":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6b680b47c38c3210063ffacc05013170}}","label":"HR Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.category.resolver_group","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Reimbursement Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"state","choices":[{"selected":false,"missing":false,"rawLabel":"Requested","label":"Requested","used":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Approval","label":"Awaiting Approval","used":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Approved","label":"Approved","used":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Payment","label":"Awaiting Payment","used":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Closed","label":"Closed","used":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Rejected","label":"Rejected","used":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Canceled","label":"Canceled","used":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}}],"usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]}},{"name":"467eb392-3ca8-449a-8de1-fd16b57976de.record","label":"15 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.requester.manager","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"flow_variable.active","label":"Flow Variables➛active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"c71374c2-1292-44a7-b096-b026cf83017f":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"37f322d5-b994-4423-a693-b2efa0e5107e"}}]</label_cache>
         <master_snapshot>ad7ab717c344b210063ffacc05013139</master_snapshot>
         <master_snapshot_digest/>
         <name>Copy of Reimbursement - Manager Approval</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1e6ffdfc304b210063ffacc050131cd</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Copy of Reimbursement - Manager Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name>sys_hub_flow_f1e6ffdfc304b210063ffacc050131cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:48</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>f1e6ffdfc304b210063ffacc050131cd</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 18:55:41</sys_created_on>
-        <sys_id>89b38127c3c8b210063ffacc050131a3</sys_id>
+        <sys_created_on>2025-09-24 15:28:48</sys_created_on>
+        <sys_id>10fd9d77c3003610063ffacc050131f9</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:48</sys_updated_on>
         <trigger display_value="">63c48c63c384b210063ffacc05013189</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN89b38127c3c8b210063ffacc050131a3"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN10fd9d77c3003610063ffacc050131f9"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT INfde6ffdfc304b210063ffacc050131cf"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -378,7 +378,7 @@
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN02e63313c344b210063ffacc0501311f,0ae63313c344b210063ffacc0501311e,42e63313c344b210063ffacc05013120,4ae63313c344b210063ffacc0501311d,4ae63313c344b210063ffacc0501311f,502bf357c344b210063ffacc05013155,7aa38023c384b210063ffacc0501315b,8ae63313c344b210063ffacc0501311c,cae63313c344b210063ffacc0501311a"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN02e63313c344b210063ffacc0501311f,0ae63313c344b210063ffacc0501311e,30f489f3c38cf210063ffacc050131f7,42e63313c344b210063ffacc05013120,4ae63313c344b210063ffacc0501311d,4ae63313c344b210063ffacc0501311f,502bf357c344b210063ffacc05013155,7aa38023c384b210063ffacc0501315b,8ae63313c344b210063ffacc0501311c,b0f489f3c38cf210063ffacc050131f6,cae63313c344b210063ffacc0501311a"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -388,16 +388,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>8</order>
+        <order>11</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>02e63313c344b210063ffacc0501311f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>097c1bbe-0463-432f-852a-172ebc3029fd</ui_id>
         <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPVZQ0UKC3FVWllViQYJcLC5FjT1pLTpz1R6Fb9b/vOHHSqqBukdgD2h6izozHfu9lXvywJoKTCTkBHicXyZilSZqO4nh0fpLk4zRPRjylAAkZkoqWgCs1MKU5xksqnU+s15caqAU+UHrwo+b+b5ZEzGkNld1scCkXppZ0dR86MMMWQnKsk8nD45DUVOPmFjSZrPdKx6KTNAeJS287ePtw7ar2MVfMlYgrE13yKnROQ2XwdYoVbPJwknhI4MVCxQGBFFQaGJKSVshS6RWZWO0wgfz5TSVX/YqFqGxLtKQvRvzGk09iv64AZMaCCH2YBYHadDGllt7hzsw63eulBAPTasKhoE7ay91cu+CmtkJVbYuluey6lXRldd0qQvoNdt6HMwgCas/TI29pFXcL9XzbgZyJqpEkUJSKUdlH1Fotcmc9nDUBCY3GJa1rUc2zWqulaJoRShnNJQZRIdUznmnEvIoo87gjVJVGM8xPm/Q91cKT+IbbYPNmSMzKXEpqzJYKapj9ch5JSyxQyBoVGgmyZhJ8M9Oitl/wqCUE4JthmP/89NCEsYvtQO3sufXAS5acXaRn56NsoTMNIov9s8ydNo0Srz1wu1d+nyGOgNsZ4nszBm/DD554lbva7R1ct4XgiNMPc8T5Z3JEoPHpLfE3I8Sjg5/anUlqZt/smMBY/PT/dHGc8vQJESHchvJcK1e3+cN3RcQwnuMURRqMkkvQbe9bd8i/Pex9bjxCs86NMwGSmzdE7KwIJbK0kLWi7tkxFAf3odhfUh/myWQcN79P5Mz/5q56/AOPHPAbrQkAAA==</values>
     </sys_hub_action_instance_v2>
@@ -410,16 +410,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>5</order>
+        <order>8</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>0ae63313c344b210063ffacc0501311e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>afd817a7-5940-46d7-967d-e5af95eef5a4</ui_id>
         <values>H4sIAAAAAAAA/9WWWU/jMBDHv0qV56ayk7ZJeVuBkJBYkMrxglDk2GNqyTlwHI6t+O47TtK7nLustC8Ij6///Gd+cW/mnhLegTcUsRATSYmklBJKRjSgMcSQ8mgcQRB7fS9nGeBKA7wwAscPTNcuMJ8fGmAWRK8wvatSuH8TOuC1MZDblxdcKlRVavZ83e3ACJ8pLXDeO7i57XslM3i4BeMdzLemPqpOsxQ0Lp0u5G3Ltc+lG4uC1xnqStQieNrtPOpmeidHOIObnBza9+DJQi4AdUimK+h7GcsxycI8LyOYvzjP9SowU7ltE83YU6V+4c1h4NZJwMx4Z8JymHQGtWF5xCy7sKbmtjZLvwrFoWo9ESBZre3heqxdcF5aVeTtFstSvdhd6DrLz1pHvOUBa/WoKxQBpUvUKcfLMQt5MSsepwuRxypvLOlS1AVnejli1hqV1tbJmXu1utzndhve7zdoaBZmrCxVfpeUpnhQzX2oPhvcaRwMpC4eUWal7vIB4y7VAVaCDY4xftSEr5lRLu+feAxudnde5eq+hhPXR4KSKJwQ7kfBKPSHhDM/jUXqszSQo+FwHI9T6r30veq5OtSsqlaOYamS+9ol3PrXOZU0ZjdOJ03Duc3cqNL+QHkP0Pnz0u8wi+lbjRwGq75dO3OF2lNCo0kYxUEyM4kBlRD3N0trUzXu7aI23Zr+HHcfkLvg7rLptv3yO/R2Yqfre3tn7UQHXvBJ8NqO3cNdTP4j7rq0/hy8Da83udtw+59gx9M0lSlMfJpy7g8jiP04YJEPI8JDGYSERPIL2L0H2/Dt7l170/LCKqk4a4q4wm1MJxClRPIwJlFACRmHUjLOyYjQkAr6Dm49vzcFZyiIz79472tfkHe2KX5/Sh2CKxA2CZyuxTsAw7cBbHn7ysOHVYYHV0TImNJJ21CvULmV218m9DUlG9gyKYG7nzRSgRbYeUmz51teUXkBzPDZsbvJ1bBldBPxjcIi6HjHDuLr5fw+wi93e6oCm3S2JO6ARBYmY64jmgy3PwzDCYUoDGJ/Mg7wwwDhyE9FGPoUPxQADGQgvuc9vv0NZaS5NvgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -432,16 +432,38 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>10</order>
+        <order>13</order>
+        <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:36</sys_created_on>
+        <sys_id>30f489f3c38cf210063ffacc050131f7</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
+        <ui_id>57c7b50f-924c-47c3-a764-5bd3b09ff1c2</ui_id>
+        <values>H4sIAAAAAAAA/+VWy27aQBT9FcurNgLXD8KrqyooUqUklZKGTRqNxp5rGGn86MyYhCL+Jd+SL+sdjw0IIppI2URlgbjPOef6Hjx3K5czd+z2gPnBKOgnURBFoe+Hw14Q96M4CFlEAQK34+Y0A8yUkBSSob2gojKO1epMAtXAnEI6tyUzP0ngJZWUkOv1GlMZV6Wgy2lTgZ5kzgXDuDu+u++4JZXYXIN0x6u90GvRCRqDwNTrFt4+XL0sjc2KpMoQF+Gt86KpnDQR5/sEI1hk4AR+x4VHDTkDBJJSoaDjZjRHloVcumMtK3Qgf/YjF8tNxpzn2hLN6KPif/Dknm/yUkBmSTOEjUmaAVl3OqGa3mDnRFdyM6+CJ6DsTBiktBL6bNdnE36Umhe5LdE0Fm11Iaosv7ITcTcNdp5HpRAElIanQW5ppTfz4uG6BXnO83okDUVRJFRsLKq15HGlDZyVCwLqGWe0LHk+I6UsFrwuRiiZNxNoeKkoHvBMxWe5RxOD28OpUu8c/ZPaPaWSGxKX2AaL1x1XLdWZoEptqeAMye/KILHEGgqknkI9AlJvgilOJC/1NzxqAQ3wdafZ//j02IYlo+1C7fTcauCRBINRNBiGZC6JBE58853FlVT1JA41cL0XfpsgXgG3FcTPeg1eht9o4sB3sVvrXNlAo4jTd1PE8CMpoqHx4SXxLyH44dG/2p1Nqndf7YiAZkWFx1SK/ap8P2Ip69qTgB3u//Hkt6nhFZhbNZxzEEy9QKKVAmSIUgOxpPbk0ASdaRPcvCTeTRNB368/H0gZ/8G7wlK0PoN5u7zGOpaLZ+KDyZ1LqueexCr2KWWkxo5DmM1Athclr2kaS+GcOG0SCUJCcE1gJqmhTVIJYCuSJaEl91rDDuT2ZvL8dPL8hCv5+fnpS/3jK5JVdAFsurmx9fq9AcTstDsAmnR7yTDuxqPI7w7DUTjyB3jf6o8OO+Ndbr1e3/8FQUm5JjQKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
+        <generation_source/>
+        <order>15</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>42e63313c344b210063ffacc05013120</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>467eb392-3ca8-449a-8de1-fd16b57976de</ui_id>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIpcBbBUKa1LUS3frSVZFj34Al52O2Q2GI/77rxAkRVB2V+oLGA+J+2ecczk1e9kRwMiVD4H4wCUYsDMJw4PuD8TCIR2EcDHhIAQLSJxlNATsVsFxxjDdUljax388UUAO8l6vez4Lbn1HgsVIpyMzhgK1c6ELS3bObwAxbC8mxTqYvr31SUIWHG1Bkuj8pXYpO0hgkti4beKdwza6wMc9ZmSKuSDTJezc5d5XetzlWcMjCCfw+ga2BjAMCSajU0CcpzZBlrnZkalSJCeTPHzO5azvWIjM10ZRutfiDNw9925cAMmNOhDaMnEB1OplTQ5/wZGZK1eqVCwa61oRDQktpZt1c3fBYGJFn9YihsWymc1mm2UOtCGkP6PwfpUYQUFieFnlNK3la52/LBuRCZJUkjqLMGZVtRI1RIi6NhbMnIKHSOKVFIbJVVKh8I6phhJJ6K4mBl8j8De/UYpV5lFncHqpKvQXm51X6mSphSXzHY3D40Cd6p2eSan2kghpGv0uLpCbmKESVCpUEUeUEO8yUKMwdXrUBB/zQd/6Pbz5yGJscDdU587gD2yi4nYS340G0VpECEfn2O41LpSslzndgeVL+3EJcALdZiB+VDd6H73biLHffne091AW3ETdfthHja9oIR+PqV+Jfi+APPnzUdpxUeV93lkAbfPT/Kn0/5MNzw59UP+f3C1A1fl8IkFy/A7MxO6QIy0BUwz4xvCv2nl2xfQ18meuDkV99rsj7/83b4PUvAWtnjA8JAAA=</values>
     </sys_hub_action_instance_v2>
@@ -454,18 +476,18 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>4</order>
+        <order>7</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>4ae63313c344b210063ffacc0501311d</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>2f26427b-2f75-42fb-969d-3da4cb809ff4</ui_id>
-        <values>H4sIAAAAAAAA/+VW0U7bMBT9lchPTOqipIEC3dNEh7SJgQQbL5RZbuy03hw7s51Cqfrvu46dtGoZA4kXtD6k9b2+1+ec3JP0Zok4RUO0z2iSHqeDPEuzrJ8k/aP9dDLIJmmfZoSxFPWQJCWDnZrlSlNYz4moXWC5PNGMWEYjpaPvFXU/cRrntdZM2tUKtlJuKkEW16ECIvmMCwp5NLy57aGKaGhumUbD5VbquegEmTABWy9beNtw7aJya6ryugRcmLfBs1A5Cpno8wgyUOTgpEkPsXvLJGUApCDCsB4qiQSWSi/Q0OoaAsCfXkix6HbMuLSeaEnuDX+Ak/cTt69gwCwPInRLHATy4WJELLmCzrmtdaeX4jkzXhPKClILe7IZ8xsuKsuV9CWWTERbrURdynOvCOoabNyP2gAIVjmeDrmnVVzN1N1lC/KUy0aSQFGonIhuRazVfFJbB2eJmGCNxiWpKi6nuNJqzptigFLGUwGLuBDqDs40fCpjkjvcMahK4lOIj5rwNdHckfgKbaB41UNmYU4EMWZNBTTEv2uHxBMLFHCjQiMBbibBFeeaV/YjHDVnAfiqF+Z/cvDUhOXH64Ha6Ln2wD1OD4+zw6M+nmmsGceJu5aTWptGiV0PXG6lX2aIZ8BtDfGtGYPH4QdP7MTONmujc58Ijjh4NUccvSVHBBpv3hL/MkLSf/JRuzFJzeybDRMYC4/+cZ0kGR380MwxJAJ8QIySPlzQ9/5sRncd8dLylznmGbxax5xyJqh5hGhrF1YCbsuwJ75lmZCMrkOye5G8mm/SQdJ83pB7/oP3iafoYw7z1gS70FMFMGU62qqJ/NhHBcUNE5xhLJT6hesK+/81cfgCFZxAJp4y+0XVWhLxSVq92EvffRjLv7TdCscwMtzujdF4LMfokbrYzHhh93wGRknudPipuFw3AP0MmTPajcVqtbr9A3+6TcZxCgAA</values>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K5GfmNRFSQsddE8THdImBhJsvFBmufFN682xM9sBuqr/fdex+6GWMZB4QetDWt/re33OyT1Jr+dEcDIg+8Cz/CjvF7281+tmWfdwPx/3e+O8y3sMICcdolgFuNNAoQ3H9S2TjQ/M58cGmAOeaJN8q7n/SfO0aIwB5RYL3MqFrSWbXcUKjBRTITnmyeD6pkNqZrC5A0MG863UU9FJNgaJWy+W8Lbhulnt11wXTYW4qFgGT2PlMGaST0PMYJGHk2cdAvcOFAcEUjJpoUMqppClNjMycKbBAPLn50rOVjumQrlAtGL3VvzGk/czv68EZFZEEVZLGgUK4XLIHLvEzoVrzEovLQqwQRMOJWukO96MhQ3ntRNahRLHxnJZrWVTqbOgCFk12LgfjUUQUHueHnmgVV5O9d3FEuSJUK0kkaLUBZOrFXPOiHHjPJw5AQmtxhWra6EmtDb6VrTFCKVKJxIXaSn1HZ5pxUSlrPC4U1SVpScYH7bhK2aEJ/EF22DxokPszB5LZu2aCmpIfzUeSSAWKdBWhVYC2k6CLy6MqN0HPOoWIvBFJ87/+OCxCSuO1gO10XPtgXuavzvqvTvs0qmhBgTN/LUaN8a2Sux64GIr/TxDPAHu0hBf2zF4GH70xE7sdLM2OQuJ6IiDF3PE4WtyRKTx6i3xLyNk3UcftRuT1M6+3TCBdfjoHzVZ1uP97wY8QybRB8xqFcIlfxvOBr7riOeWP88xT+C1dMyJAMntA0SXdoEKcTuggfiWZWIyuYrJ1YvkxXyT97P284rc8x+8TwLFEPOYtybYhx4rwCkzyVZNEsY+KTltmdA+pVLrn7Spafhfk8YvVMELZNMJuM+6MYrJj8qZ2V7+5v1I/aXtVjjFkRFub0RGIzUiD9SldipKtxcyOEpqp8MPLdS6Aepn2S3w1VgsFoubP4jq6UdxCgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
@@ -476,16 +498,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>9</order>
+        <order>14</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>4ae63313c344b210063ffacc0501311f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>af9cf8d2-f020-458b-8764-7850ed824baf</ui_id>
         <values>H4sIAAAAAAAA/9WWyW7bMBCGX8XQ2TJI0bbk3IoEAQq0CeAsl6IQKHIYE6CWUpST1Mi7dyjJa9ykaZsCvQThcPvnn/lEf1kFWgYnwVgmUs4UJYpSSiiZ0IgmkEAm4mkMURIMg4LngCstiNJKHC+5aXxgtTq1wB3IQWkHN5X0/6Z0JBproXBPT7hU6roy/PG234ERsdBG4nxw8uXrMKi4xcMd2OBkdTD1q+oMz8Dg0vla3qFc91j5sSxFk6OuVK+Dn/qdZ/3M4OMZzuAmL4cOA3hwUEhAHYqbGoZBzgtMsrSPmwjmLy8Lsw0sdOG6RHP+UOvveDOL/DoFmJnoTdgM096gLqzOuONXzjbCNXbjV6kF1J0nEhRvjDvdjXULLiuny6Lb4nhm1rtL0+TFRedIsDlgpx5NjSKg8ol65Xg5ZqGuFuX9fC3yXBetJX2KphTcbEbcOauzxnk5q6DR18fc7sLH/QYD7cKcV5Uu7tLKlkvd3ofq89GdwcFImfIeZdb6rhhx4VMdYSX46BzjZ234llvt8/6Mx+Bmf+dNob818NH3kaQkZjMiwjiasHBMBA+zRGYhzyI1GY+nyTSjwdMwqB/rU8PreusYlir91viEO/96p9LW7NbptG04v1lYXbkPKG8JvT9Pwx6zhL7UyCza9u3OmVvUHlIaz1icROnCphZ0SvzfPGts3br3HLX5wfTbuPsFuWvurttuOy6/R+9Z7NPu3sFFN9GDF70RvK5jj3CXkP+Iuz6tPwdvz+t97vbc/ifYiSzLVAazkGZChOMYkjCJeBzChAimIkZIrH4Du9dgG7/cvTtvWlE6rbTgbRG3uEXjCBgjSrCExBElZMqU4kKQCaEMD38Ft0E4+FB5Q1H/m1+817WvybvYF388pR7BLQj7BM534j2A7GUAO95+5+HDKsPSFxFyrk3aNdRPqDzI7S8T+jMle9hypUD4nzRKg5HYeWm7511eUXUF3IrFub/J17BjdB/xvcIi6HjHM8R3y/l+hF8/76kaXNrbkvoDUlXanPuOaDM8/DCMZxRiFiXhbBrhhwHYJMwkYyHFDwUABxXJ93mPv/4AAUU+NvgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -498,16 +520,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>13</order>
+        <order>18</order>
         <parent_ui_id>a1f62d15-5a07-421b-b4b7-3e25d0d42820</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:38:36</sys_created_on>
         <sys_id>502bf357c344b210063ffacc05013155</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>91d4ad39-c15e-4789-a117-a803621af7ce</ui_id>
         <values>H4sIAAAAAAAA/9WWWU/jMBDHv0qV56aKk7ZJeVuBkJBYkMrxglDkY0wtOQeOU2ArvvuOk/SknLustC8Ij6///Gd+cW8WnhLegTcUiRATSQJJCAlIMCIhSSABxuNxDGHi9b2cZoArDfDCCBzPqa5dYLE4NEAtiF5helelcP+mZMBrYyC3z8+4VKiq1PTputuBET5TWuC8d3Bz2/dKavBwC8Y7WOxMfVSdpgw0Lp0u5e3KtU+lG4uC1xnqStUyeNrtPOpmeidHOIObnBzS9+DRQi4AdUiqK+h7Gc0xycI8rSKYvzjP9TowU7ltE83oY6V+4c1R6NZJwMx4Z8JqmHYGtWF5RC29sKbmtjYrvwrFoWo9ESBpre3hZqxdcF5aVeTtFkuZXu4udJ3lZ60j3uqAjXrUFYqA0iXqlOPlmIW8mBUP06XIY5U3lnQp6oJTvRpRa41itXVyFl6tLve53Yb3+w0amoUZLUuV36WlKeaquQ/VZ4M7jYOB1MUDyqzUXT6g3KU6wErQwTHGj5rwNTXK5f0Tj8HN7s6rXN3XcOL6SJAgjiYB9+NwFPnDgFOfJYL5lIVyNByOkzEj3nPfq56qQ02rau0Yliq9r13CrX+dU2ljduN02jSc28yNKu0PlDeHzp/nfodZQt5q5Chc9+3GmWvUHlMST6I4CdOZSQ2oNHB/M1abqnHvJWrTnenPcfcBuUvuLptu2y+/Q+9F7HRzb++snejACz8JXtuxe7hLgv+Iuy6tPwdvy+tt7rbc/ifYccaYZDDxCePcH8aQ+ElIYx9GAY9kGAVBLL+A3XuwDd/u3o03LS+skorTpohr3EjMCWMjxqNgyEISBONISsp5MApIRDh9B7ee3zvURQXi8+/d+8qX3J1tS9+fUAfgGoNt/qYb8Q6/6G38Wtq+8uxhjWHuSggZVTpt2+kVJndy+8t8vqZkC1oqJXD3g0Yq0AL7Lm32fMsbKi+AGj47dje5GraEbgO+VVjEHO94AfhmOb+P78uXPVWBTTtbUndAKguTUdcRTYa7n4XhhEAchYk/GYf4WYBo5DMRRT7BzwQABRmK73mNb38DyvKhE/YKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -520,16 +542,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>11</order>
+        <order>16</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 14:15:54</sys_created_on>
         <sys_id>7aa38023c384b210063ffacc0501315b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170</ui_id>
         <values>H4sIAAAAAAAA/+2XXW/iOBSG/0qVa8zGiROc3o2Aait1pxJ0Zi9mR5Hjj2LJJIyTdMpW/e/jJIYEQpl2hlaqNDcIH3/wntfn4SRfHhzJnHMHRZRjgiAeQc91oRuGPiUwSfyQJm7CkTNwUrLkZqXmNNPMjO+IKqvAw8NYc1Jwdpbps08rVn2N4ZCWWvO0eHw0S5nMV4qsP9sdJkIXUjEz75x/+TpwVkSbwwuunfOHvannqlMk4cosnW3k7cst1qtqzDJaLo2uWG6CV3bnxM6cXU7MjNlUyYEDh98XPGXc6BBE5XzgLElqksz02jkvdGkCJn12nar1dsVCpkWT55Lc5/J/88O+V60T3CRGrQfbYWz9acJiQgoyNyfTotRbuzJJed5YwrggpSrG3Viz4HpVyCxtthQkUZvdmSqX6cfGEGd7QOc6ytyI4Ksqz0p5k5aYL7Lvs43IC5nWjtgUVUaJ2o5IUWiZlEUl58Ep5c0hs5vwYbuFVOb641p0nGelrk2aTcfXs0n874eb8d/TWTybzm9ml+ObabWDK14fvSSrlUxv45XO7mSt0OS7HN4qMxgKlX03ieXyNh0SWpkzNFdHhhcmPqnDn4mW1Y/+Y44xmyuVn1L5reSXdeEJAX0YhgBC1wcIJiGIMA+AywOCAg+FQeg5jwMnX+djRfK89dhcbvytrCxqHLfexvX1NGnWFVptplquig9G3h23jj4ONlwGRyuftIXeObNl8z6Go8gfYS9e6FhzGbvV5zIpdV6712dztjf9QlB/LncD6k1dn4flW1Z7savu3rOPzYQl1TtOqo20qDY1foBU7L4jUm1av4/qjte7pO64LfO4qVcruj71rXD0II4wSnzgJygAKBICYBcjgDhxaeCxEYL0F3D8KYTH249oq5hmKZNVXnkHwrwwLfG/0nV9FvSB25s9aWMUHd7GXWmH5FroerGrQwdY6PxTtUfkuu8Ju1M1yB2zd6nbsftN6OIMh0ngYsAFxgCZtgEi6HkgDAmDEFEm3Ndtdi47Vs2i8xBayCXPyiIWitx2SHP7eG3+n17G1TOUbLiapvXfo1X0pERLV5JlipN0v5+Zcvrrwiq1aKEX9rNjbL0jsk7W0Fqn97pZ1+s34YpSgk17IiDyKQcoTCjAggrg8yQQfpDgZOS+Qteix2s46pcqKzWpb7El6gQvb8/QsWFp0gp4Wpolqb6b/fhV/yCLU/AHp9/CqWf33ttcO/FaTC3MvglZ51VVGIb7lHFIRkFSvaARgLwIAhIhD0QhH3EkcOiT6BUow/BodYt+Ked0wVmp+Gkpe4aODWXzVsDT0ixlbaHvAjbrxC1h4ckIw72HQbpMu+IO8dbJ6l1yJ+acaLq4kFxV92nfxJ6gsXstuyB2L+ZtupvnQZ9xCiAzj47ICz2AfTQCowgnLjKll/j8hNx9/QG0Q+NXshQAAA==</values>
     </sys_hub_action_instance_v2>
@@ -542,18 +564,40 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>3</order>
+        <order>6</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>8ae63313c344b210063ffacc0501311c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>3aa93408-529d-4fcd-9e4d-d7ce524bc217</ui_id>
         <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyt3MrEhgo0E2wTdpLt0tQIhWzS5MqSSV1DP/3HYqUbdiKbWEVIEFv5nBIvpl5b0j52ypkJLwMyTSaZtPpcDKOon4/ikajforjJOmP0iRK8CDshAIvKHganHAKw0fMCzvWS43zXEkYI/eDKpgmTOccL796rw/eBWbSOeNEURFefvveCXOsYF8Day5Xe1PnAuM4oRxc7z2yPaBmmW+GqJxztk+7y4IbNyEVsVCiTkh/GSoIBQwZ5pp2wgUWBBuplhuLopjcCr41zJkwsGNonX9p9gznTiLrl1GIKqVubjNEPknOnF1jg++MKlJTKO+aziVLqXb5IDTDBTdXuzbncJsbJoVb4sJ2qyUvFuLGpSPcbFDVBCyFBhA0t4Fa5D6M7G4unz5XKGdMlDnxk1ymUMZqhI1RLCmMxbMKKacL2AgtgAhMPCBbc1YuBiyL7gOHQTfj8gkO1exBdHFqgXchr7g7A/t1af6KFbNR/AnblGTKGAeGIFdCLQtVpvIRpbzQ5YTCQru9wnXHUvKKY623kUPK0c/C4nZ58BEjlzS7JFUsNx9gi0fqg1t3Km0Mj1JwuqVcKgVhFoWuF8jfBexAVqsrYI6hJJAq+JIT+xPF3bRQkG+zXv9z85c2YHTeiv6gKXgcaqq9jRtK8nQ+Kkle7SakLklenAe2T3UbeHHGrYlzEEXvSZ5w+NtTZ3O9uRScEF1MjpKMbPmkpTLI5XJHdYdyaczzMyBUPL+1zAyS5UuoPM0zRjmpu4NmdmLvDur9nnfQmyQ5ACLIVY8JzkT5oACgr8X+4VHqJfEez0p67dw41oZ1eqgBHBgZPDdWwhlwKiXcwdnBvcNTA7Hq9yVl9nt9ZfQC6LcmgH6vHQGsNmFuElmT8+oNaatZ+T9bf7zvDxTcWRCv6wTW6My46Zm99aGA+40UvEs2N3P9Audafmy+oMjOa7aAOSz15yGnX/TEyAM129MrLyLNE+b/1s17xqGqUGV4r/BwjY9+OyU7D1eWoQVUjuXwvlY0BXJohBVFmSwEQf5lvSWSrWTGlDbe+bDRfKagHxFIEGZg5jQovYONd8OL+HQcVSo/ZkEViD9NBxBIUAYSbAJpFnaTpjVo8XHadtOaYcbLasBHU75TTqqUVC80rhOFPMKIM7vamaDiVkH9/7ZXJ4Ha9ncC67v4Am+/NaUUJ4MeHo37cRxFcUTG0WQ8jiejJBvh8SDbahQhLVLoprBzBlSB7VFFjarO0WH/cS21aaM5A1VFwWsp7Gd0b2wCCwvqG1SwTgP3DSWRklMs9jrKPdwTf8w8fs/X4ZvrKu/i/6iC3e9n2plqc/1a74aCfRHsZ0E/WopNaNSbxCS9mIzj8cUgI6OLKcHDCzxNhuM+oekga/Mp8P0/Ihvsg+EVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Integration Freecurrency API">13cbb837c34cf210063ffacc05013162</action_type>
+        <action_type_parent display_value="Integration Freecurrency API">c107f4bfc30cf210063ffacc050131e9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>13cbb837c34cf210063ffacc05013162</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:36</sys_created_on>
+        <sys_id>b0f489f3c38cf210063ffacc050131f6</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
+        <ui_id>4647ebd5-7eac-4c8b-b930-82929074ed69</ui_id>
+        <values>H4sIAAAAAAAA/41SXWvjMBD8K0Hco2PsOE7cvPVSCge9K7TXvpRi1vIqEciSK0tpfSH//Vaxkxz3AfdmjWZ2Z0Z+2TNZsxXLl7yqimzJszkXszRJFpkQwHmSJ2mWLnIWMQ0NEhMa47UrK6sI24HyAdzv1xbBYT0xdvLU1uGzTGPurUXt4ovmcCBVLbtWQf88ij8lcZIQzLdS1cRnq5fXiLVgaaFDy1b7367+17GCChVRr4/rJ58f7v4Rw/VtwAa7vB+Ru1G+vsDG1sFQGjH8cKhrJCcCVIcRa0BTbGN7tnLWE0CF1Pda9WfGVmpH41jgfnTyB62cJYEnMMzH4e58LMeaBljcgINHmsydtyOVb43k2A2l1CjAK7f+FRsI962TRg8SB5U6qY3yjf421MHOA06vQojvyAS2IWdwPsYQj1vz/nByeSv1sZLxUhkO6nwC56ysvAt+9szL73/0PGB/aRoVNrS1bKBtpd6UrTU7edxExpt4o+gQC2XeyWEnNzoGHlLG9AYQ3xJ+c4SfwcoQ+SuNIXFY+KTlm8cv4R9K0xnPAbNpVmQ4nc8XxRSK2XIqqqKqrq4KUeUJO0Ss67u1gq67lEWvVL75EHWobiypHHoOEm5l667J1A7HPg6vPwFA9L3YbgMAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
@@ -564,21 +608,21 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
         <generation_source/>
-        <order>1</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>cae63313c344b210063ffacc0501311a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:58:12</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:29:24</sys_updated_on>
         <ui_id>a8746a26-d110-4336-882e-8704421894c5</ui_id>
-        <values>H4sIAAAAAAAA/+1YXU/iQBT9K2SeCVtAl483IzHZza4mqPsiphmmtzBmaOt8qCzhv+/tzLRUUIRdXlx9Ic79mJ57OKfDeLMgPCJ90unGLej1WsG4GQTtIOges6DbhnG787XTpiwgdZLQGWClBJbKCNcPVJg8sFicSqAaoloqa9dZlP8ZNhvMSAmJXi6xNOIqE3T+y3dghE25iDBP+je3dZJRiZtrkKS/WEvtik7QMQgsHRbw1uHqeZavo5SZGeIKeRH84TsHPlP7NsAMNuVwgjqBJw1JBIgjpkJBncxogkOmck76WhoM4PjRRSLmZcWUJ9rNOaNPiv/GB7dbeV0MOBjzHJTL0PPjwvGAanqJOzNtZElXyhkoR0kEMTVCn1ZjruAi0zxNXIumY1F0p8LMknNHCCk3qHwdRiEIyPI5c+RurPhymj4OC5BnPLGM+BFFyqgoV1RrycdG53AWBARYimc0y3gyCTOZPnDbjFBmjYnARSMW6SM+U/FJ0qAsx91AVmnjDOMDG/5FJc+H+InbYPOyTtRcnQqq1GoU5DC8NzkSN5gfIbQsOAryPiZ5pk/wKQ/gMS/rXvljtlVbbCUlt91K+E9hs9Nrd7qtcCpDCTwM8s/Z2Ehl598U/nAtvZ8LdkBauODKQ11D7j1gl6HNPbeAbaudu4R3QHO7A3xkZQGnnRcc0A3ekQP8WO/eAm+pP2hu01TUXWkIEeAMVIQxB1F9/xeJTblXMvspfQdUhdJP/DNqZx7Wa3C99u3yJe3b/jXtt/bU/uuv/24QvCf5f6QDgG0VG7RXmrpLjUy2OCCccmWV8aoTKhX7OWIHkIUjvjuU64ZYB/83fmh/+uH/98PR8VapVX5WlKpmaRLxHLGquMK9mUEN4Q6YVifJ/Ppm+12hIeHegEIXNFBVdAJyubzdNNPhNt7PgzsQU95CjAD1FlHegWVS+qaqC8vjrdjRO/HoUPeSd2bEj/K7jG3VWtxbaSsySBDKvXojHxEHe0T6I5KkCYxIfUTyqjAXlw1jBYIrEza2WCyXLmIk9Rs0K8tVd0TnylYqNoUItWmjzyKhNYOPH+K/ADtwUvhvYKA2cKRs0uR9V+J0vPCNE/DSF9idvlzx6kl4fLCT8OjTfv9qP4TJw/Kygcccvv0O6MnbP9igP+YlEwAA</values>
+        <values>H4sIAAAAAAAA/+1Y32/aOhj9V5CfUW5CaAm8VUWV7rS7Se22l1JFjvOleDJJZjtdGcr/vi+2EzJYGWyVpt7tpaq/H875DufEmNsN4SmZkUmUjWA6HflJ4Puh70dnzI9CSMLJ+SSkzCdDktMVYKUEVsgU1w9UVE1gs7mUQDWkg0IO3pdp828ceKySEnJd11iaclUKuv7gOjDCllykmCez27shKanEzTVIMtvspI5FJ2gCAkuvW3i7cPW6bNZpwaoV4op5G3ztOucuM/h3jhlsauD4QwKPGvIUEEdGhYIhWdEchyzkmsy0rDCA46dvc7HuKpY813bOFX1U/As+OBw1dRngYMxx0C1jx48NZ3Oq6Q3uzHQlO7oKzkBZSlLIaCX0ZT9mC96Wmhe5bdE0EW13IapV/sYSQroNeh9HpRAElM2cDXI7VnazLD5ftyCveG4YcSOKglHRrajWkieVbuBsCAgwFK9oWfL8Pi5l8cBNM0JZefcCF14mis/4TMXvc4+yBreHrFLvCuNzE/5AJW+G+A+3weZ6SNRaXQqq1HYU5DD+VDVI7GBuhNiwYClo+pjkpb7ApzyAw1wPnfITdlBbbCslu91W+I9xMJmGk2gUL2Usgcd+83eVVFKZ+feFf72TPs0FRyBtXfDOQd1B7jxglrHJfWsB0zZ4YxPOAcFhB7jI1gJWO99xQOS/IAe4sV68BX6kfj84pKk02moIEeAMVMQZB9F//7eJfbn3Mqcp/QhUrdIv3DMGVw7WU3Cd9s3ye9o3/TvaH52o/adf/5HvvyT5/0kHADsoNgi3mvpYVDI/4IB4yZVRxpNO6FWc5ogjQLaOeGVR7hpiF/zP+CH864f/vx/GZwel1vta0amaFXnKG8Sq5wr7ZgZ1DR+BaXWRr9/fHr4reBI+VaDQBR6qit6DrBHVRmmqOfPOo+A8m0wZ82nkB+djP2BnNAwT8McJjMdBXd/tG+/3gDjN20cQ3t1uKgHqRx+Ac3aXlK6p7+7u2Gx3dA4fP9d954UZ/E/5vscOai2bbrWVVkgQWqN/018QC3tBZguSFzksyHBBmqq4EZcJYwWC6xImttnUtY1UkroNgt5y253StTKVii0hRW2a6DeR2JjBxZ/j14UjOGn9N69gMLek7NPkfNfhtLzwvZP1xhWYnf55x/sn7NmznbDjv/b7VfshTB53lxg8PvHt94yevPsKuuWqDH0TAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN02e63313c344b210063ffacc05013118,0ee63313c344b210063ffacc05013119,182bf357c344b210063ffacc05013154,7c8dbb1bc344b210063ffacc0501317f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN02e63313c344b210063ffacc05013118,0ee63313c344b210063ffacc05013119,182bf357c344b210063ffacc05013154,2a838d73c38cf210063ffacc050131e8,7c8dbb1bc344b210063ffacc0501317f,aa838d73c38cf210063ffacc050131e9,ee838d73c38cf210063ffacc050131e6"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">c9542f8bc3007210063ffacc050131c5</block>
@@ -590,17 +634,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>5</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>02e63313c344b210063ffacc05013118</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:38</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
         <ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</ui_id>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWaBejuxLEbQIUKBtgCTIpQ2EFbWy2VKkKlJ2XMP/3qUejtE4aFHk2Js5S+7OrGa893Rnm86aO31pjFgpb/nlwfeEchj93nsKavSWHteqFFZolfeA721Adq5wg9+QWyzfElYK00jY3Z8p8bWQZYtj/wZa6mKx9Zb730p212AuoUBJHW5tK9SKnouSThWDKlzwkMfRPI4Yi7IkLOZxEUZlDAgx3ZsevpvovvnYI/6LOtw8ws00SbeloxUy38NHi6pEGl2BNOh7NagSrG53R6RFKK+VfALWQllq57nLj0b8pN5RmrqLFZJGjkPxeMzHnQ0wX2vB8bpxBAfEQiHHN1zLrlafBx1u21hBJ+20bUI6Q/2wcaQdi5FSdbvW25tp4JVQvcCxKDUHeTyBpTUUnUXjPgxKrKlRXkPT0HLyptUb0T8mLnWwknQIKqm3NNR5JwDuiAe0IwiuCH/fw/fQCqfiE7WhxwPNAozgee8zamdbknDo15L/6ByhQeAoJR+2QRcMb0VjL2nOBkfWB/+5SU/8ud9DdpHMIZrPyjBksySO57Msi3CWXbAkicJskfA0IG6kDmRuLFg8HL52jMXkysHBz739Wm1fIxcLSKs0ZOn5XCTzc7k4k4iXwxD9IQzu8/1lFhhj/8NwGgZh8sHUo7Z++D9n4cEZf5hgBt+UyIUhIncO+zD9r7vCjgwg+Cm01e13J+EJO/wCGfbPySEGAAA=</values>
         <workflow_reference/>
@@ -616,17 +660,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>6</order>
+        <order>9</order>
         <outputs_assigned/>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:20:08</sys_created_on>
         <sys_id>0ee63313c344b210063ffacc05013119</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:38</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
         <ui_id>b0b8f369-6bd1-4cbf-b95a-ac04cd79791b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -642,19 +686,45 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>12</order>
+        <order>17</order>
         <outputs_assigned/>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:38:36</sys_created_on>
         <sys_id>182bf357c344b210063ffacc05013154</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:38</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
         <ui_id>a1f62d15-5a07-421b-b4b7-3e25d0d42820</ui_id>
         <values>H4sIAAAAAAAA/+2UTW/bMAyG/0rgs2H4ow7WXIYiQ4EB2wqsXS9bYdAS3QiTJU+Sk2ZB/vsoy06DNt0XdtzNeimSL6kH3kW6d13v7I2+sFbcq2jx+S6OhPIafe8iBS1Gi4hpxYUTWlWDEEdrkL0PXDtwOPvSp2nBZ0upLfLXFObCdhK2tz+/xVZCcoNj1w4M1XZoosXuSchtO6wk1CiHYkaoe0oXnE5NCk12zjJW5PMiT9P81VlWz4s6y3kBCAXdmxKX0xCzd4MSvzid70e6nTppw72tLI0jfHCoOFLrBqTFOGpBcXDabA+KQeBXSj4KK6EclYv85QcrvlPtvCz9xQZpRoYheDhW4/qCzFZaMLzqvMGgOKjlmMO07Fv1IczhF48N9NJNiyelt1QPO2/auxgtNdcrvfk4NbwUahhwDErNQB5O4GgNde/Q+odBiS0VqlroOlpO1Rm9FkMyeWmTe0mHpJF6Q009UQkwbzyhHUFySfqbQb4FI/wU76kMJQebNVjBqoE+KucMjbAf1lJ9672hMOA4ShW2QRcsM6JzF9RnjaPrffwc3SNqd7slPZJDPtNm9qnj/rPKEtYbWodLrMd1vw+8ls9x/tP0f8H5OZRNmaXlac7P5qc4P0H4y3Dnv4DbP8dvsp2m6X+4j+EWtgqQjrMNzf+a7TsPcuhgAzccmbBk5MZrb6e/tw9sCQDBjqWNNl/9CI/a/gc7oyVcBwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">22838d73c38cf210063ffacc050131e8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:33:27</sys_created_on>
+        <sys_id>2a838d73c38cf210063ffacc050131e8</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
+        <ui_id>c71374c2-1292-44a7-b096-b026cf83017f</ui_id>
+        <values>H4sIAAAAAAAA/+2UXWvbMBSG/0rRtTH+aMKam1E2CoVthbX0ZivmWDpOxGTJk+SkWch/35Flp2FNaRm73F30nq/3HD9kx0zvu967O3PpnFxqtvj2kDCpg0a/d0xDi2zBuNFCeml0NQgJW4PqQ+Bae1xaCKEz6c6kBu7lGt9TipCuU7C9fz2Tr6QSFsfpHVia4dGyxe6PkN92WCmoUVHDW2+lXlK5FPRqMmjyC57zspiXRZYV787zel7WeSFKQCgpbyr8MC1z9mlQkhe3DPNId9MkY0WwlWcJw0ePWiCNbkA5TFgLWoA3dntQLIK40epJWEntqR0LyY9O/qLexWwWEhukHTnG4OFZjSeMMl8ZyfGmCwaj4qFWYw03qm/1l7hHOD420Cs/HZ+U3lE/7ILp4GK01NyuzObrNPBK6mHBMagMB3V4gacz1L1HFz4MKmypUdVC19Fxqs6atRyKyUubLhU90kaZDQ0NZKXhcxud0o0gvSL94yDfg5Vhi8/UhoqjzRqc5NVAIbXzllbYD2epfvbBUFxwXKWK16AEx63s/OWA1eh6nzxH+Ije3W5wuB5NpBHJ/f57n2WlGDo8B/ltRf+C6QuYNbM8m51m+nx+iukTNL8McvEKyOH0b+Q4y7L/IB+DLF0VgRx3i2D8LccPAdo4wUVuBHLpyMhd0K6nf+wQ2BIAkh9LG2N/hBWetP1vnWJoVvsFAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -668,23 +738,158 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>10</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:49:00</sys_created_on>
         <sys_id>7c8dbb1bc344b210063ffacc0501317f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:38</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
         <ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</ui_id>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWaCesX0pjBYBCrQN0AS5tIGwIimbKEWqJGXHNfzvXerhGI2DFkWOvYmz3N2Z5awOge5c2zl7p1fWirUKll8fwkAoj+H3IVDQ8GAZUK2YcEKrsgfCYAuy84FV2xq95ewtYkzYVsL+/kKIboRkho/1WzBYxXETLA+/hdy+5aWEikuscOuMUGtMFwxPNYE6XtCYpkmRJoQk8yyuirSKE5YChxTvTYnvJrpvPvZI+KIO3w9xO3XShnlaMQkD/ui4Yhxb1yAtD4MGFAOnzf6EGA7sRsknYCOUw3KBv/xoxU+sneS5v1hz1Ej5EDwdy3FmA0w3WlB+03qCA+KgkmMO1bJr1OdBh582r6GTbpo2Ip3Ferz1pD2LkVJ9u9G7L1PDa6F6gWNQagrydAKHY6g6x61/GC55g4XKBtoWh1P61xR9MnJporXEQ1RLvcOm3jsRUE88whlBdI34+x6+ByO8ik9YBpMHmhVYQcveZ1jOGZRw7MdS/ug8oUHgKKUcpoEXLDWidSvss+Uj62P43KRn/jwcYH6VFZAUMxbHZJalaTGbzxM+m1+RLEvi+SKjeQS9V0GW1oHjx+O3jpCUwejg595+rbKvsRcLyOs8JvnlvciKS3txYSNeXobkD8vgn+8vd4EQ8n8ZzpdB2HIw9aitb/7Pu/DgjT90sINvGKfCIpE7j32Y/us+sEcDCHoO7bT57iU8YcdfCj1nQyEGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a2838d73c38cf210063ffacc050131e9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>c71374c2-1292-44a7-b096-b026cf83017f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:33:27</sys_created_on>
+        <sys_id>aa838d73c38cf210063ffacc050131e9</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
+        <ui_id>e53d5f39-0f64-4ffe-a74f-95f982d97f95</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ae838d73c38cf210063ffacc050131e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</flow>
+        <flow_variables_assigned>active</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:33:27</sys_created_on>
+        <sys_id>ee838d73c38cf210063ffacc050131e6</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
+        <ui_id>5059c801-8be6-43ae-b4df-c2a3a5888e2e</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYCnFrBVWfK7pwCBgQBtU7RuLk0gUNRKJkqRCkX6UcP/3l1JdgLDyK0338jhcndmuAvumfGu8q5emtu6loVm89/PPSY1YbjeM81LYHPGhZNrYD225soTEOI6k3Wl+O6xg3KuagoRK6kyC12uiltM4cCy+f7syO0qSBRPQeHtpfXwadGlkBkiYz6Np9kkFvFU5NEgDMdxnnMhwlE4iAeZwLjj5RO9c7pUAvepMQq4RsDYjKiEPQZbBzoDrNQQ77GS64w7Y3cnxALPHrR6BVZSO0zHKHhby7+YexhSXA6oSkB7dtomnUMtLFZGCnionDS6RRxPVXdHGOVL/a2lT95Czr1y59528N1l532NJaEiWcSzI53/XJnNjyOnhdSNA92hMoKr0447Z2XqHdT0Wl4uz+1roS+X3gwUlFg2KXlVSV0klTVr2ZRCcWVQKNwEuTIbpEitFtAjGR2g5zxYIH7XwI/cSrLlK6bBy1Tyl5YvHu6pJ+JJHkdRNuqns9mwPxxGcZ+PZ3E/jdCYEEaDcALs0DxB8uJJWWtm50nSOo8BtbCycrdtn8wdCjlipLzrH1y9F4dVnLf6pqiDAtx3a5Cw2314YttkMJnFk2mUrGxiQSZhgI0DheWkOGmzP7HeTWP7x8/scDg802y10tvJa2bgQktfJ/A6gdcJ/D8TmIGQNQYsSf/98Rekgx32tRRvoY2xf8jMV+zwD2FxboZPBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f1e6ffdfc304b210063ffacc050131cd"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=f1e6ffdfc304b210063ffacc050131cd"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f1e6ffdfc304b210063ffacc050131cd^sys_idNOT IN6a838d73c38cf210063ffacc050131dc"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=37f322d5-b994-4423-a693-b2efa0e5107e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>active</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>active</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Reimbursement - Manager Approval">f1e6ffdfc304b210063ffacc050131cd</model>
+        <model_id>f1e6ffdfc304b210063ffacc050131cd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_f1e6ffdfc304b210063ffacc050131cd</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:33:26</sys_created_on>
+        <sys_id>6a838d73c38cf210063ffacc050131dc</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f1e6ffdfc304b210063ffacc050131cd^sys_idNOT INb57973d3c344b210063ffacc050131a9,b5e6ffdfc304b210063ffacc050131eb,fde6ffdfc304b210063ffacc050131ee"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
@@ -772,7 +977,7 @@
         <description/>
         <flow_priority/>
         <internal_name>copy_of_reimbursement__manager_approval</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.requester.manager","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"467eb392-3ca8-449a-8de1-fd16b57976de.record","label":"10 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Reimbursement Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"state","choices":[{"selected":false,"missing":false,"rawLabel":"Requested","label":"Requested","used":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Approval","label":"Awaiting Approval","used":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Approved","label":"Approved","used":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Payment","label":"Awaiting Payment","used":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Closed","label":"Closed","used":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Rejected","label":"Rejected","used":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Canceled","label":"Canceled","used":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}}],"usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]}},{"name":"Created or Updated_1.current.category.resolver_group","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"]},"attributes":{}},{"name":"{{static.6b680b47c38c3210063ffacc05013170}}","label":"HR Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"a8746a26-d110-4336-882e-8704421894c5.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"e59351c5-3f35-4343-9846-aba922f4ebf9":["condition"],"a4517328-bd63-4ede-a36c-a1410b07b500":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.category.resolver_group","label":"Trigger - Record Created➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"91d4ad39-c15e-4789-a117-a803621af7ce":["record"],"e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170":["record"]},"attributes":{}},{"name":"097c1bbe-0463-432f-852a-172ebc3029fd.record","label":"8 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"4647ebd5-7eac-4c8b-b930-82929074ed69.currency.data.USD","label":"12 - Integration Freecurrency API➛Currency➛data➛USD","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"57c7b50f-924c-47c3-a764-5bd3b09ff1c2":["amount_usd"]},"attributes":{}},{"name":"Created or Updated_1.current.amount_brl","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Amount BRL","reference":"","reference_display":"Amount BRL","type":"currency","base_type":"currency","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"amount_brl","usedInstances":{"4647ebd5-7eac-4c8b-b930-82929074ed69":["amount_brl"]}},{"name":"097c1bbe-0463-432f-852a-172ebc3029fd.record","label":"11 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"91d4ad39-c15e-4789-a117-a803621af7ce":["record"],"e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170":["record"],"57c7b50f-924c-47c3-a764-5bd3b09ff1c2":["record"]},"attributes":{}},{"name":"Created_1.current.category.resolver_group","label":"Trigger - Record Created➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"a8746a26-d110-4336-882e-8704421894c5.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"e59351c5-3f35-4343-9846-aba922f4ebf9":["condition"],"a4517328-bd63-4ede-a36c-a1410b07b500":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6b680b47c38c3210063ffacc05013170}}","label":"HR Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["record"],"2f26427b-2f75-42fb-969d-3da4cb809ff4":["record"],"097c1bbe-0463-432f-852a-172ebc3029fd":["record"],"af9cf8d2-f020-458b-8764-7850ed824baf":["record"],"afd817a7-5940-46d7-967d-e5af95eef5a4":["record"],"3aa93408-529d-4fcd-9e4d-d7ce524bc217":["conditions"],"467eb392-3ca8-449a-8de1-fd16b57976de":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.category.resolver_group","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Category➛Resolver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1793782_hr_rei_0_category","column_name":"resolver_group","usedInstances":{"097c1bbe-0463-432f-852a-172ebc3029fd":["assignment_group"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Reimbursement Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1793782_hr_rei_0_reimbursement","column_name":"state","choices":[{"selected":false,"missing":false,"rawLabel":"Requested","label":"Requested","used":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Approval","label":"Awaiting Approval","used":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Approved","label":"Approved","used":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Awaiting Payment","label":"Awaiting Payment","used":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Closed","label":"Closed","used":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Rejected","label":"Rejected","used":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}},{"selected":false,"missing":false,"rawLabel":"Canceled","label":"Canceled","used":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1793782_hr_rei_0_reimbursement","dependent_values":[""]}}],"usedInstances":{"a1f62d15-5a07-421b-b4b7-3e25d0d42820":["condition"]}},{"name":"467eb392-3ca8-449a-8de1-fd16b57976de.record","label":"15 - Update Record➛Reimbursement Record","reference":"x_1793782_hr_rei_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.requester.manager","label":"Trigger - Record Created or Updated➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"a8746a26-d110-4336-882e-8704421894c5":["approval_conditions"]}},{"name":"flow_variable.active","label":"Flow Variables➛active","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"c71374c2-1292-44a7-b096-b026cf83017f":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"37f322d5-b994-4423-a693-b2efa0e5107e"}}]</label_cache>
         <master>true</master>
         <name>Copy of Reimbursement - Manager Approval</name>
         <natlang/>
@@ -789,7 +994,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad7ab717c344b210063ffacc05013139</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -797,7 +1002,7 @@
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -881,14 +1086,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:40</sys_created_on>
         <sys_id>2d7ab717c344b210063ffacc05013177</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -965,14 +1170,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:40</sys_created_on>
         <sys_id>a57ab717c344b210063ffacc0501313c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1091,7 +1296,7 @@
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ad7ab717c344b210063ffacc05013139^sys_idNOT IN257ab717c344b210063ffacc05013195,2d7ab717c344b210063ffacc05013195,657ab717c344b210063ffacc05013194,657ab717c344b210063ffacc05013196,6d7ab717c344b210063ffacc05013196,a57ab717c344b210063ffacc05013193,d0b3c023c384b210063ffacc05013188,e12b3757c344b210063ffacc05013172,ed7ab717c344b210063ffacc05013191"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ad7ab717c344b210063ffacc05013139^sys_idNOT IN257ab717c344b210063ffacc05013195,2d7ab717c344b210063ffacc05013195,657ab717c344b210063ffacc05013194,657ab717c344b210063ffacc05013196,6d7ab717c344b210063ffacc05013196,a57ab717c344b210063ffacc05013193,b6f44df3c38cf210063ffacc05013122,d0b3c023c384b210063ffacc05013188,e12b3757c344b210063ffacc05013172,ed7ab717c344b210063ffacc05013191,f6f44df3c38cf210063ffacc05013121"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
@@ -1101,16 +1306,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>5</order>
+        <order>8</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>257ab717c344b210063ffacc05013195</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:35:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>afd817a7-5940-46d7-967d-e5af95eef5a4</ui_id>
         <values>H4sIAAAAAAAA/9WWWU/jMBDHv0qV56ayk7ZJeVuBkJBYkMrxglDk2GNqyTlwHI6t+O47TtK7nLustC8Ij6///Gd+cW/mnhLegTcUsRATSYmklBJKRjSgMcSQ8mgcQRB7fS9nGeBKA7wwAscPTNcuMJ8fGmAWRK8wvatSuH8TOuC1MZDblxdcKlRVavZ83e3ACJ8pLXDeO7i57XslM3i4BeMdzLemPqpOsxQ0Lp0u5G3Ltc+lG4uC1xnqStQieNrtPOpmeidHOIObnBza9+DJQi4AdUimK+h7GcsxycI8LyOYvzjP9SowU7ltE83YU6V+4c1h4NZJwMx4Z8JymHQGtWF5xCy7sKbmtjZLvwrFoWo9ESBZre3heqxdcF5aVeTtFstSvdhd6DrLz1pHvOUBa/WoKxQBpUvUKcfLMQt5MSsepwuRxypvLOlS1AVnejli1hqV1tbJmXu1utzndhve7zdoaBZmrCxVfpeUpnhQzX2oPhvcaRwMpC4eUWal7vIB4y7VAVaCDY4xftSEr5lRLu+feAxudnde5eq+hhPXR4KSKJwQ7kfBKPSHhDM/jUXqszSQo+FwHI9T6r30veq5OtSsqlaOYamS+9ol3PrXOZU0ZjdOJ03Duc3cqNL+QHkP0Pnz0u8wi+lbjRwGq75dO3OF2lNCo0kYxUEyM4kBlRD3N0trUzXu7aI23Zr+HHcfkLvg7rLptv3yO/R2Yqfre3tn7UQHXvBJ8NqO3cNdTP4j7rq0/hy8Da83udtw+59gx9M0lSlMfJpy7g8jiP04YJEPI8JDGYSERPIL2L0H2/Dt7l170/LCKqk4a4q4wm1MJxClRPIwJlFACRmHUjLOyYjQkAr6Dm49vzcFZyiIz79472tfkHe2KX5/Sh2CKxA2CZyuxTsAw7cBbHn7ysOHVYYHV0TImNJJ21CvULmV218m9DUlG9gyKYG7nzRSgRbYeUmz51teUXkBzPDZsbvJ1bBldBPxjcIi6HjHDuLr5fw+wi93e6oCm3S2JO6ARBYmY64jmgy3PwzDCYUoDGJ/Mg7wwwDhyE9FGPoUPxQADGQgvuc9vv0NZaS5NvgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -1123,16 +1328,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>8</order>
+        <order>11</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>2d7ab717c344b210063ffacc05013195</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:49:10</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>097c1bbe-0463-432f-852a-172ebc3029fd</ui_id>
         <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPVZQ0UKC3FVWllViQYJcLC5FjT1pLTpz1R6Fb9b/vOHHSqqBukdgD2h6izozHfu9lXvywJoKTCTkBHicXyZilSZqO4nh0fpLk4zRPRjylAAkZkoqWgCs1MKU5xksqnU+s15caqAU+UHrwo+b+b5ZEzGkNld1scCkXppZ0dR86MMMWQnKsk8nD45DUVOPmFjSZrPdKx6KTNAeJS287ePtw7ar2MVfMlYgrE13yKnROQ2XwdYoVbPJwknhI4MVCxQGBFFQaGJKSVshS6RWZWO0wgfz5TSVX/YqFqGxLtKQvRvzGk09iv64AZMaCCH2YBYHadDGllt7hzsw63eulBAPTasKhoE7ay91cu+CmtkJVbYuluey6lXRldd0qQvoNdt6HMwgCas/TI29pFXcL9XzbgZyJqpEkUJSKUdlH1Fotcmc9nDUBCY3GJa1rUc2zWqulaJoRShnNJQZRIdUznmnEvIoo87gjVJVGM8xPm/Q91cKT+IbbYPNmSMzKXEpqzJYKapj9ch5JSyxQyBoVGgmyZhJ8M9Oitl/wqCUE4JthmP/89NCEsYvtQO3sufXAS5acXaRn56NsoTMNIov9s8ydNo0Srz1wu1d+nyGOgNsZ4nszBm/DD554lbva7R1ct4XgiNMPc8T5Z3JEoPHpLfE3I8Sjg5/anUlqZt/smMBY/PT/dHGc8vQJESHchvJcK1e3+cN3RcQwnuMURRqMkkvQbe9bd8i/Pex9bjxCs86NMwGSmzdE7KwIJbK0kLWi7tkxFAf3odhfUh/myWQcN79P5Mz/5q56/AOPHPAbrQkAAA==</values>
     </sys_hub_action_instance_v2>
@@ -1145,18 +1350,18 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>4</order>
+        <order>7</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>657ab717c344b210063ffacc05013194</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:35:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:44:04</sys_updated_on>
         <ui_id>2f26427b-2f75-42fb-969d-3da4cb809ff4</ui_id>
-        <values>H4sIAAAAAAAA/+VW0U7bMBT9lchPTOqipIEC3dNEh7SJgQQbL5RZbuy03hw7s51Cqfrvu46dtGoZA4kXtD6k9b2+1+ec3JP0Zok4RUO0z2iSHqeDPEuzrJ8k/aP9dDLIJmmfZoSxFPWQJCWDnZrlSlNYz4moXWC5PNGMWEYjpaPvFXU/cRrntdZM2tUKtlJuKkEW16ECIvmMCwp5NLy57aGKaGhumUbD5VbquegEmTABWy9beNtw7aJya6ryugRcmLfBs1A5Cpno8wgyUOTgpEkPsXvLJGUApCDCsB4qiQSWSi/Q0OoaAsCfXkix6HbMuLSeaEnuDX+Ak/cTt69gwCwPInRLHATy4WJELLmCzrmtdaeX4jkzXhPKClILe7IZ8xsuKsuV9CWWTERbrURdynOvCOoabNyP2gAIVjmeDrmnVVzN1N1lC/KUy0aSQFGonIhuRazVfFJbB2eJmGCNxiWpKi6nuNJqzptigFLGUwGLuBDqDs40fCpjkjvcMahK4lOIj5rwNdHckfgKbaB41UNmYU4EMWZNBTTEv2uHxBMLFHCjQiMBbibBFeeaV/YjHDVnAfiqF+Z/cvDUhOXH64Ha6Ln2wD1OD4+zw6M+nmmsGceJu5aTWptGiV0PXG6lX2aIZ8BtDfGtGYPH4QdP7MTONmujc58Ijjh4NUccvSVHBBpv3hL/MkLSf/JRuzFJzeybDRMYC4/+cZ0kGR380MwxJAJ8QIySPlzQ9/5sRncd8dLylznmGbxax5xyJqh5hGhrF1YCbsuwJ75lmZCMrkOye5G8mm/SQdJ83pB7/oP3iafoYw7z1gS70FMFMGU62qqJ/NhHBcUNE5xhLJT6hesK+/81cfgCFZxAJp4y+0XVWhLxSVq92EvffRjLv7TdCscwMtzujdF4LMfokbrYzHhh93wGRknudPipuFw3AP0MmTPajcVqtbr9A3+6TcZxCgAA</values>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K5GfmNRFSQsddE8THdImBhJsvFBmufFN682xM9sBuqr/fdex+6GWMZB4QetDWt/re33OyT1Jr+dEcDIg+8Cz/CjvF7281+tmWfdwPx/3e+O8y3sMICcdolgFuNNAoQ3H9S2TjQ/M58cGmAOeaJN8q7n/SfO0aIwB5RYL3MqFrSWbXcUKjBRTITnmyeD6pkNqZrC5A0MG863UU9FJNgaJWy+W8Lbhulnt11wXTYW4qFgGT2PlMGaST0PMYJGHk2cdAvcOFAcEUjJpoUMqppClNjMycKbBAPLn50rOVjumQrlAtGL3VvzGk/czv68EZFZEEVZLGgUK4XLIHLvEzoVrzEovLQqwQRMOJWukO96MhQ3ntRNahRLHxnJZrWVTqbOgCFk12LgfjUUQUHueHnmgVV5O9d3FEuSJUK0kkaLUBZOrFXPOiHHjPJw5AQmtxhWra6EmtDb6VrTFCKVKJxIXaSn1HZ5pxUSlrPC4U1SVpScYH7bhK2aEJ/EF22DxokPszB5LZu2aCmpIfzUeSSAWKdBWhVYC2k6CLy6MqN0HPOoWIvBFJ87/+OCxCSuO1gO10XPtgXuavzvqvTvs0qmhBgTN/LUaN8a2Sux64GIr/TxDPAHu0hBf2zF4GH70xE7sdLM2OQuJ6IiDF3PE4WtyRKTx6i3xLyNk3UcftRuT1M6+3TCBdfjoHzVZ1uP97wY8QybRB8xqFcIlfxvOBr7riOeWP88xT+C1dMyJAMntA0SXdoEKcTuggfiWZWIyuYrJ1YvkxXyT97P284rc8x+8TwLFEPOYtybYhx4rwCkzyVZNEsY+KTltmdA+pVLrn7Spafhfk8YvVMELZNMJuM+6MYrJj8qZ2V7+5v1I/aXtVjjFkRFub0RGIzUiD9SldipKtxcyOEpqp8MPLdS6Aepn2S3w1VgsFoubP4jq6UdxCgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
@@ -1167,16 +1372,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>9</order>
+        <order>14</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>657ab717c344b210063ffacc05013196</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:49:10</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>af9cf8d2-f020-458b-8764-7850ed824baf</ui_id>
         <values>H4sIAAAAAAAA/9WWyW7bMBCGX8XQ2TJI0bbk3IoEAQq0CeAsl6IQKHIYE6CWUpST1Mi7dyjJa9ykaZsCvQThcPvnn/lEf1kFWgYnwVgmUs4UJYpSSiiZ0IgmkEAm4mkMURIMg4LngCstiNJKHC+5aXxgtTq1wB3IQWkHN5X0/6Z0JBproXBPT7hU6roy/PG234ERsdBG4nxw8uXrMKi4xcMd2OBkdTD1q+oMz8Dg0vla3qFc91j5sSxFk6OuVK+Dn/qdZ/3M4OMZzuAmL4cOA3hwUEhAHYqbGoZBzgtMsrSPmwjmLy8Lsw0sdOG6RHP+UOvveDOL/DoFmJnoTdgM096gLqzOuONXzjbCNXbjV6kF1J0nEhRvjDvdjXULLiuny6Lb4nhm1rtL0+TFRedIsDlgpx5NjSKg8ol65Xg5ZqGuFuX9fC3yXBetJX2KphTcbEbcOauzxnk5q6DR18fc7sLH/QYD7cKcV5Uu7tLKlkvd3ofq89GdwcFImfIeZdb6rhhx4VMdYSX46BzjZ234llvt8/6Mx+Bmf+dNob818NH3kaQkZjMiwjiasHBMBA+zRGYhzyI1GY+nyTSjwdMwqB/rU8PreusYlir91viEO/96p9LW7NbptG04v1lYXbkPKG8JvT9Pwx6zhL7UyCza9u3OmVvUHlIaz1icROnCphZ0SvzfPGts3br3HLX5wfTbuPsFuWvurttuOy6/R+9Z7NPu3sFFN9GDF70RvK5jj3CXkP+Iuz6tPwdvz+t97vbc/ifYiSzLVAazkGZChOMYkjCJeBzChAimIkZIrH4Du9dgG7/cvTtvWlE6rbTgbRG3uEXjCBgjSrCExBElZMqU4kKQCaEMD38Ft0E4+FB5Q1H/m1+817WvybvYF388pR7BLQj7BM534j2A7GUAO95+5+HDKsPSFxFyrk3aNdRPqDzI7S8T+jMle9hypUD4nzRKg5HYeWm7511eUXUF3IrFub/J17BjdB/xvcIi6HjHM8R3y/l+hF8/76kaXNrbkvoDUlXanPuOaDM8/DCMZxRiFiXhbBrhhwHYJMwkYyHFDwUABxXJ93mPv/4AAUU+NvgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -1189,16 +1394,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>10</order>
+        <order>15</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>6d7ab717c344b210063ffacc05013196</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:49:10</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>467eb392-3ca8-449a-8de1-fd16b57976de</ui_id>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIpcBbBUKa1LUS3frSVZFj34Al52O2Q2GI/77rxAkRVB2V+oLGA+J+2ecczk1e9kRwMiVD4H4wCUYsDMJw4PuD8TCIR2EcDHhIAQLSJxlNATsVsFxxjDdUljax388UUAO8l6vez4Lbn1HgsVIpyMzhgK1c6ELS3bObwAxbC8mxTqYvr31SUIWHG1Bkuj8pXYpO0hgkti4beKdwza6wMc9ZmSKuSDTJezc5d5XetzlWcMjCCfw+ga2BjAMCSajU0CcpzZBlrnZkalSJCeTPHzO5azvWIjM10ZRutfiDNw9925cAMmNOhDaMnEB1OplTQ5/wZGZK1eqVCwa61oRDQktpZt1c3fBYGJFn9YihsWymc1mm2UOtCGkP6PwfpUYQUFieFnlNK3la52/LBuRCZJUkjqLMGZVtRI1RIi6NhbMnIKHSOKVFIbJVVKh8I6phhJJ6K4mBl8j8De/UYpV5lFncHqpKvQXm51X6mSphSXzHY3D40Cd6p2eSan2kghpGv0uLpCbmKESVCpUEUeUEO8yUKMwdXrUBB/zQd/6Pbz5yGJscDdU587gD2yi4nYS340G0VpECEfn2O41LpSslzndgeVL+3EJcALdZiB+VDd6H73biLHffne091AW3ETdfthHja9oIR+PqV+Jfi+APPnzUdpxUeV93lkAbfPT/Kn0/5MNzw59UP+f3C1A1fl8IkFy/A7MxO6QIy0BUwz4xvCv2nl2xfQ18meuDkV99rsj7/83b4PUvAWtnjA8JAAA=</values>
     </sys_hub_action_instance_v2>
@@ -1211,18 +1416,40 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>3</order>
+        <order>6</order>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>a57ab717c344b210063ffacc05013193</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 13:35:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>3aa93408-529d-4fcd-9e4d-d7ce524bc217</ui_id>
         <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyt3MrEhgo0E2wTdpLt0tQIhWzS5MqSSV1DP/3HYqUbdiKbWEVIEFv5nBIvpl5b0j52ypkJLwMyTSaZtPpcDKOon4/ikajforjJOmP0iRK8CDshAIvKHganHAKw0fMCzvWS43zXEkYI/eDKpgmTOccL796rw/eBWbSOeNEURFefvveCXOsYF8Day5Xe1PnAuM4oRxc7z2yPaBmmW+GqJxztk+7y4IbNyEVsVCiTkh/GSoIBQwZ5pp2wgUWBBuplhuLopjcCr41zJkwsGNonX9p9gznTiLrl1GIKqVubjNEPknOnF1jg++MKlJTKO+aziVLqXb5IDTDBTdXuzbncJsbJoVb4sJ2qyUvFuLGpSPcbFDVBCyFBhA0t4Fa5D6M7G4unz5XKGdMlDnxk1ymUMZqhI1RLCmMxbMKKacL2AgtgAhMPCBbc1YuBiyL7gOHQTfj8gkO1exBdHFqgXchr7g7A/t1af6KFbNR/AnblGTKGAeGIFdCLQtVpvIRpbzQ5YTCQru9wnXHUvKKY623kUPK0c/C4nZ58BEjlzS7JFUsNx9gi0fqg1t3Km0Mj1JwuqVcKgVhFoWuF8jfBexAVqsrYI6hJJAq+JIT+xPF3bRQkG+zXv9z85c2YHTeiv6gKXgcaqq9jRtK8nQ+Kkle7SakLklenAe2T3UbeHHGrYlzEEXvSZ5w+NtTZ3O9uRScEF1MjpKMbPmkpTLI5XJHdYdyaczzMyBUPL+1zAyS5UuoPM0zRjmpu4NmdmLvDur9nnfQmyQ5ACLIVY8JzkT5oACgr8X+4VHqJfEez0p67dw41oZ1eqgBHBgZPDdWwhlwKiXcwdnBvcNTA7Hq9yVl9nt9ZfQC6LcmgH6vHQGsNmFuElmT8+oNaatZ+T9bf7zvDxTcWRCv6wTW6My46Zm99aGA+40UvEs2N3P9Audafmy+oMjOa7aAOSz15yGnX/TEyAM129MrLyLNE+b/1s17xqGqUGV4r/BwjY9+OyU7D1eWoQVUjuXwvlY0BXJohBVFmSwEQf5lvSWSrWTGlDbe+bDRfKagHxFIEGZg5jQovYONd8OL+HQcVSo/ZkEViD9NBxBIUAYSbAJpFnaTpjVo8XHadtOaYcbLasBHU75TTqqUVC80rhOFPMKIM7vamaDiVkH9/7ZXJ4Ha9ncC67v4Am+/NaUUJ4MeHo37cRxFcUTG0WQ8jiejJBvh8SDbahQhLVLoprBzBlSB7VFFjarO0WH/cS21aaM5A1VFwWsp7Gd0b2wCCwvqG1SwTgP3DSWRklMs9jrKPdwTf8w8fs/X4ZvrKu/i/6iC3e9n2plqc/1a74aCfRHsZ0E/WopNaNSbxCS9mIzj8cUgI6OLKcHDCzxNhuM+oekga/Mp8P0/Ihvsg+EVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:44</sys_created_on>
+        <sys_id>b6f44df3c38cf210063ffacc05013122</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:09:21</sys_updated_on>
+        <ui_id>57c7b50f-924c-47c3-a764-5bd3b09ff1c2</ui_id>
+        <values>H4sIAAAAAAAA/+VWy27aQBT9FcurNgLXD8KrqyooUqUklZKGTRqNxp5rGGn86MyYhCL+Jd+SL+sdjw0IIppI2URlgbjPOef6Hjx3K5czd+z2gPnBKOgnURBFoe+Hw14Q96M4CFlEAQK34+Y0A8yUkBSSob2gojKO1epMAtXAnEI6tyUzP0ngJZWUkOv1GlMZV6Wgy2lTgZ5kzgXDuDu+u++4JZXYXIN0x6u90GvRCRqDwNTrFt4+XL0sjc2KpMoQF+Gt86KpnDQR5/sEI1hk4AR+x4VHDTkDBJJSoaDjZjRHloVcumMtK3Qgf/YjF8tNxpzn2hLN6KPif/Dknm/yUkBmSTOEjUmaAVl3OqGa3mDnRFdyM6+CJ6DsTBiktBL6bNdnE36Umhe5LdE0Fm11Iaosv7ITcTcNdp5HpRAElIanQW5ppTfz4uG6BXnO83okDUVRJFRsLKq15HGlDZyVCwLqGWe0LHk+I6UsFrwuRiiZNxNoeKkoHvBMxWe5RxOD28OpUu8c/ZPaPaWSGxKX2AaL1x1XLdWZoEptqeAMye/KILHEGgqknkI9AlJvgilOJC/1NzxqAQ3wdafZ//j02IYlo+1C7fTcauCRBINRNBiGZC6JBE58853FlVT1JA41cL0XfpsgXgG3FcTPeg1eht9o4sB3sVvrXNlAo4jTd1PE8CMpoqHx4SXxLyH44dG/2p1Nqndf7YiAZkWFx1SK/ap8P2Ip69qTgB3u//Hkt6nhFZhbNZxzEEy9QKKVAmSIUgOxpPbk0ASdaRPcvCTeTRNB368/H0gZ/8G7wlK0PoN5u7zGOpaLZ+KDyZ1LqueexCr2KWWkxo5DmM1Athclr2kaS+GcOG0SCUJCcE1gJqmhTVIJYCuSJaEl91rDDuT2ZvL8dPL8hCv5+fnpS/3jK5JVdAFsurmx9fq9AcTstDsAmnR7yTDuxqPI7w7DUTjyB3jf6o8OO+Ndbr1e3/8FQUm5JjQKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
@@ -1233,16 +1460,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>11</order>
+        <order>16</order>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 14:16:00</sys_created_on>
         <sys_id>d0b3c023c384b210063ffacc05013188</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 14:16:00</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>e4ee9e11-7f70-46c4-b7f1-cf0ffa41c170</ui_id>
         <values>H4sIAAAAAAAA/+2XXW/iOBSG/0qVa8zGiROc3o2Aait1pxJ0Zi9mR5Hjj2LJJIyTdMpW/e/jJIYEQpl2hlaqNDcIH3/wntfn4SRfHhzJnHMHRZRjgiAeQc91oRuGPiUwSfyQJm7CkTNwUrLkZqXmNNPMjO+IKqvAw8NYc1Jwdpbps08rVn2N4ZCWWvO0eHw0S5nMV4qsP9sdJkIXUjEz75x/+TpwVkSbwwuunfOHvannqlMk4cosnW3k7cst1qtqzDJaLo2uWG6CV3bnxM6cXU7MjNlUyYEDh98XPGXc6BBE5XzgLElqksz02jkvdGkCJn12nar1dsVCpkWT55Lc5/J/88O+V60T3CRGrQfbYWz9acJiQgoyNyfTotRbuzJJed5YwrggpSrG3Viz4HpVyCxtthQkUZvdmSqX6cfGEGd7QOc6ytyI4Ksqz0p5k5aYL7Lvs43IC5nWjtgUVUaJ2o5IUWiZlEUl58Ep5c0hs5vwYbuFVOb641p0nGelrk2aTcfXs0n874eb8d/TWTybzm9ml+ObabWDK14fvSSrlUxv45XO7mSt0OS7HN4qMxgKlX03ieXyNh0SWpkzNFdHhhcmPqnDn4mW1Y/+Y44xmyuVn1L5reSXdeEJAX0YhgBC1wcIJiGIMA+AywOCAg+FQeg5jwMnX+djRfK89dhcbvytrCxqHLfexvX1NGnWFVptplquig9G3h23jj4ONlwGRyuftIXeObNl8z6Go8gfYS9e6FhzGbvV5zIpdV6712dztjf9QlB/LncD6k1dn4flW1Z7savu3rOPzYQl1TtOqo20qDY1foBU7L4jUm1av4/qjte7pO64LfO4qVcruj71rXD0II4wSnzgJygAKBICYBcjgDhxaeCxEYL0F3D8KYTH249oq5hmKZNVXnkHwrwwLfG/0nV9FvSB25s9aWMUHd7GXWmH5FroerGrQwdY6PxTtUfkuu8Ju1M1yB2zd6nbsftN6OIMh0ngYsAFxgCZtgEi6HkgDAmDEFEm3Ndtdi47Vs2i8xBayCXPyiIWitx2SHP7eG3+n17G1TOUbLiapvXfo1X0pERLV5JlipN0v5+Zcvrrwiq1aKEX9rNjbL0jsk7W0Fqn97pZ1+s34YpSgk17IiDyKQcoTCjAggrg8yQQfpDgZOS+Qteix2s46pcqKzWpb7El6gQvb8/QsWFp0gp4Wpolqb6b/fhV/yCLU/AHp9/CqWf33ttcO/FaTC3MvglZ51VVGIb7lHFIRkFSvaARgLwIAhIhD0QhH3EkcOiT6BUow/BodYt+Ked0wVmp+Gkpe4aODWXzVsDT0ixlbaHvAjbrxC1h4ckIw72HQbpMu+IO8dbJ6l1yJ+acaLq4kFxV92nfxJ6gsXstuyB2L+ZtupvnQZ9xCiAzj47ICz2AfTQCowgnLjKll/j8hNx9/QG0Q+NXshQAAA==</values>
     </sys_hub_action_instance_v2>
@@ -1255,16 +1482,16 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>13</order>
+        <order>18</order>
         <parent_ui_id>a1f62d15-5a07-421b-b4b7-3e25d0d42820</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:38:41</sys_created_on>
         <sys_id>e12b3757c344b210063ffacc05013172</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 14:16:01</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:39:45</sys_updated_on>
         <ui_id>91d4ad39-c15e-4789-a117-a803621af7ce</ui_id>
         <values>H4sIAAAAAAAA/9WWWU/jMBDHv0qV56aKk7ZJeVuBkJBYkMrxglDkY0wtOQeOU2ArvvuOk/SknLustC8Ij6///Gd+cW8WnhLegTcUiRATSQJJCAlIMCIhSSABxuNxDGHi9b2cZoArDfDCCBzPqa5dYLE4NEAtiF5helelcP+mZMBrYyC3z8+4VKiq1PTputuBET5TWuC8d3Bz2/dKavBwC8Y7WOxMfVSdpgw0Lp0u5e3KtU+lG4uC1xnqStUyeNrtPOpmeidHOIObnBzS9+DRQi4AdUiqK+h7Gc0xycI8rSKYvzjP9TowU7ltE83oY6V+4c1R6NZJwMx4Z8JqmHYGtWF5RC29sKbmtjYrvwrFoWo9ESBpre3hZqxdcF5aVeTtFkuZXu4udJ3lZ60j3uqAjXrUFYqA0iXqlOPlmIW8mBUP06XIY5U3lnQp6oJTvRpRa41itXVyFl6tLve53Yb3+w0amoUZLUuV36WlKeaquQ/VZ4M7jYOB1MUDyqzUXT6g3KU6wErQwTHGj5rwNTXK5f0Tj8HN7s6rXN3XcOL6SJAgjiYB9+NwFPnDgFOfJYL5lIVyNByOkzEj3nPfq56qQ02rau0Yliq9r13CrX+dU2ljduN02jSc28yNKu0PlDeHzp/nfodZQt5q5Chc9+3GmWvUHlMST6I4CdOZSQ2oNHB/M1abqnHvJWrTnenPcfcBuUvuLptu2y+/Q+9F7HRzb++snejACz8JXtuxe7hLgv+Iuy6tPwdvy+tt7rbc/ifYccaYZDDxCePcH8aQ+ElIYx9GAY9kGAVBLL+A3XuwDd/u3o03LS+skorTpohr3EjMCWMjxqNgyEISBONISsp5MApIRDh9B7ee3zvURQXi8+/d+8qX3J1tS9+fUAfgGoNt/qYb8Q6/6G38Wtq+8uxhjWHuSggZVTpt2+kVJndy+8t8vqZkC1oqJXD3g0Yq0AL7Lm32fMsbKi+AGj47dje5GraEbgO+VVjEHO94AfhmOb+P78uXPVWBTTtbUndAKguTUdcRTYa7n4XhhEAchYk/GYf4WYBo5DMRRT7BzwQABRmK73mNb38DyvKhE/YKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -1277,21 +1504,43 @@
         <display_text/>
         <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
         <generation_source/>
-        <order>1</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>ed7ab717c344b210063ffacc05013191</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <ui_id>a8746a26-d110-4336-882e-8704421894c5</ui_id>
-        <values>H4sIAAAAAAAA/+1YXU/iQBT9K2SeCVtAl483IzHZza4mqPsiphmmtzBmaOt8qCzhv+/tzLRUUIRdXlx9Ic79mJ57OKfDeLMgPCJ90unGLej1WsG4GQTtIOges6DbhnG787XTpiwgdZLQGWClBJbKCNcPVJg8sFicSqAaoloqa9dZlP8ZNhvMSAmJXi6xNOIqE3T+y3dghE25iDBP+je3dZJRiZtrkKS/WEvtik7QMQgsHRbw1uHqeZavo5SZGeIKeRH84TsHPlP7NsAMNuVwgjqBJw1JBIgjpkJBncxogkOmck76WhoM4PjRRSLmZcWUJ9rNOaNPiv/GB7dbeV0MOBjzHJTL0PPjwvGAanqJOzNtZElXyhkoR0kEMTVCn1ZjruAi0zxNXIumY1F0p8LMknNHCCk3qHwdRiEIyPI5c+RurPhymj4OC5BnPLGM+BFFyqgoV1RrycdG53AWBARYimc0y3gyCTOZPnDbjFBmjYnARSMW6SM+U/FJ0qAsx91AVmnjDOMDG/5FJc+H+InbYPOyTtRcnQqq1GoU5DC8NzkSN5gfIbQsOAryPiZ5pk/wKQ/gMS/rXvljtlVbbCUlt91K+E9hs9Nrd7qtcCpDCTwM8s/Z2Ehl598U/nAtvZ8LdkBauODKQ11D7j1gl6HNPbeAbaudu4R3QHO7A3xkZQGnnRcc0A3ekQP8WO/eAm+pP2hu01TUXWkIEeAMVIQxB1F9/xeJTblXMvspfQdUhdJP/DNqZx7Wa3C99u3yJe3b/jXtt/bU/uuv/24QvCf5f6QDgG0VG7RXmrpLjUy2OCCccmWV8aoTKhX7OWIHkIUjvjuU64ZYB/83fmh/+uH/98PR8VapVX5WlKpmaRLxHLGquMK9mUEN4Q6YVifJ/Ppm+12hIeHegEIXNFBVdAJyubzdNNPhNt7PgzsQU95CjAD1FlHegWVS+qaqC8vjrdjRO/HoUPeSd2bEj/K7jG3VWtxbaSsySBDKvXojHxEHe0T6I5KkCYxIfUTyqjAXlw1jBYIrEza2WCyXLmIk9Rs0K8tVd0TnylYqNoUItWmjzyKhNYOPH+K/ADtwUvhvYKA2cKRs0uR9V+J0vPCNE/DSF9idvlzx6kl4fLCT8OjTfv9qP4TJw/Kygcccvv0O6MnbP9igP+YlEwAA</values>
+        <values>H4sIAAAAAAAA/+1Y32/aOhj9V5CfUW5CaAm8VUWV7rS7Se22l1JFjvOleDJJZjtdGcr/vi+2EzJYGWyVpt7tpaq/H875DufEmNsN4SmZkUmUjWA6HflJ4Puh70dnzI9CSMLJ+SSkzCdDktMVYKUEVsgU1w9UVE1gs7mUQDWkg0IO3pdp828ceKySEnJd11iaclUKuv7gOjDCllykmCez27shKanEzTVIMtvspI5FJ2gCAkuvW3i7cPW6bNZpwaoV4op5G3ztOucuM/h3jhlsauD4QwKPGvIUEEdGhYIhWdEchyzkmsy0rDCA46dvc7HuKpY813bOFX1U/As+OBw1dRngYMxx0C1jx48NZ3Oq6Q3uzHQlO7oKzkBZSlLIaCX0ZT9mC96Wmhe5bdE0EW13IapV/sYSQroNeh9HpRAElM2cDXI7VnazLD5ftyCveG4YcSOKglHRrajWkieVbuBsCAgwFK9oWfL8Pi5l8cBNM0JZefcCF14mis/4TMXvc4+yBreHrFLvCuNzE/5AJW+G+A+3weZ6SNRaXQqq1HYU5DD+VDVI7GBuhNiwYClo+pjkpb7ApzyAw1wPnfITdlBbbCslu91W+I9xMJmGk2gUL2Usgcd+83eVVFKZ+feFf72TPs0FRyBtXfDOQd1B7jxglrHJfWsB0zZ4YxPOAcFhB7jI1gJWO99xQOS/IAe4sV68BX6kfj84pKk02moIEeAMVMQZB9F//7eJfbn3Mqcp/QhUrdIv3DMGVw7WU3Cd9s3ye9o3/TvaH52o/adf/5HvvyT5/0kHADsoNgi3mvpYVDI/4IB4yZVRxpNO6FWc5ogjQLaOeGVR7hpiF/zP+CH864f/vx/GZwel1vta0amaFXnKG8Sq5wr7ZgZ1DR+BaXWRr9/fHr4reBI+VaDQBR6qit6DrBHVRmmqOfPOo+A8m0wZ82nkB+djP2BnNAwT8McJjMdBXd/tG+/3gDjN20cQ3t1uKgHqRx+Ac3aXlK6p7+7u2Gx3dA4fP9d954UZ/E/5vscOai2bbrWVVkgQWqN/018QC3tBZguSFzksyHBBmqq4EZcJYwWC6xImttnUtY1UkroNgt5y253StTKVii0hRW2a6DeR2JjBxZ/j14UjOGn9N69gMLek7NPkfNfhtLzwvZP1xhWYnf55x/sn7NmznbDjv/b7VfshTB53lxg8PvHt94yevPsKuuWqDH0TAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Integration Freecurrency API">13cbb837c34cf210063ffacc05013162</action_type>
+        <action_type_parent display_value="Integration Freecurrency API">c107f4bfc30cf210063ffacc050131e9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>13cbb837c34cf210063ffacc05013162</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:44</sys_created_on>
+        <sys_id>f6f44df3c38cf210063ffacc05013121</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 13:39:44</sys_updated_on>
+        <ui_id>4647ebd5-7eac-4c8b-b930-82929074ed69</ui_id>
+        <values>H4sIAAAAAAAA/41SXW/bMAz8K4GwR8ew43y4eetSFBjQrUC69qUoDFqmEgGy5MpSWi/Ifx8VO8mwdsDezCOPvDv5ec9kxZZstuBlmWcLnk25mKRJMs+EAM6TWZJm6XzGIqahRpqE2njtitIqwnagfAD3+5VFcFiNjB09NlX4LNKYe2tRu/jCORyIVcm2UdA9DeT1l1ESJQk1+Faqihhs+fwSsQYsnXRo2XL/V+t/NSsoUdHo9VHA6Ov67h9GXNcErBfMuwG5G+irC2xsFQSlEcN3h7pCUiJAtRixGjQZN7ZjS2c9ARRJda9Vd57YSu1oHQuz7638RScnSZgTGPZj3zuXxRBUD4sbcPBAm7nzdhjlWyM5tn0oFQrwyq3+xPqB+8ZJo3uKg1Kd2Eb5Wv/o42DnBad3IcS3JAKb4DMoH2yIh615W59U3kp9jGRoKsNBnStwzsrSu6Bnz7z8+SHnHvskaVRY09WihqaRelM01uzk8RIJr+ONoiIWyryRwlZudAw8uIzpDSC+JfzmCD+BlcHyd1pD5HDwUctXj9/CP5SmEz4DzMZZnuF4Op3nY8gni7Eo87K8uspFOUvYIWJt164UtO0lLHql4tUHq310Q0hFn3OgcCsbd02idjjkcXj5DQJrBRJwAwAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ad7ab717c344b210063ffacc05013139"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ad7ab717c344b210063ffacc05013139^sys_idNOT IN217ab717c344b210063ffacc05013191,2d7ab717c344b210063ffacc0501318f,878dfb1bc344b210063ffacc050131c1,e52b3757c344b210063ffacc05013176"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ad7ab717c344b210063ffacc05013139^sys_idNOT IN217ab717c344b210063ffacc05013191,2d7ab717c344b210063ffacc0501318f,878dfb1bc344b210063ffacc050131c1,e52b3757c344b210063ffacc05013176,f2f44df3c38cf210063ffacc05013125,f6f44df3c38cf210063ffacc05013126,fef44df3c38cf210063ffacc05013123"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">81542f8bc3007210063ffacc050131d5</block>
@@ -1303,17 +1552,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>6</order>
+        <order>9</order>
         <outputs_assigned/>
         <parent_ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>217ab717c344b210063ffacc05013191</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <ui_id>b0b8f369-6bd1-4cbf-b95a-ac04cd79791b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1329,17 +1578,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>5</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_id>2d7ab717c344b210063ffacc0501318f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <ui_id>e59351c5-3f35-4343-9846-aba922f4ebf9</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWaCekX0pAgcBCqQNkAS5tIGwoiibLSWqImXHFfzvXephG42LNmiOvZmz3OXMaAfuiGpN3Rr9oC61FquKLD4/OURUFsPfHamg5GRBmKpyYYSq0h5wyAZkawt3/CtnhufvEcuFriXsHs+U2FrIvOHj/BoanGJ4QxbdLyWRY2dBofDmzGOBHwc+pX4SelkcZJ6fB8AhwIESMi7x6nIi9u6mR5zfMja72uLaNKJajeebccr9BKomt6w86hD+bHiVc+RTgNTcISVUORjV7A5IwyG/reQRWIvK4DhiLz9r8QMf9KPIXiw4SmR8KB6O6WjZABdXYACptMy0zXiVrZVgXA/m5LyAVprlKTZcuK2t1KHFQCanbiXbsvo0OEIOA6YvhEirkQSvrVJLfdRR3K/V9m5ieS2q3pWxKBUDeTiBQe+y1lg+HeGSlzgoLaGu0dG0btRG9M3IpXRXEg9uIdUWH7X75gKzxF00FtxrxK96+BEaYVV8xDHYPNDMQAuW9ruJ49AmTvYO0Tu9lKD1USS6m35vLcVB8iguHfyxLawRtbnElzd81LF3Xq76yZZ3HSQXYQx+PMs9j87CIIhnSeLzWXJBw9D3knnIIhfZol6QqTZg+H7/paU0wN0ecvAyIW819nXpmkNURB6NzqcrjM+l60yuXhkp/w+Rst/zLxNFKf0fqX+OlNDpEIRRW//4GybqycZnePPgNRMaqT1Y7MP0H2MLO1wuwU6hrWq+WVFHbP8T3hDhuK0GAAA=</values>
         <workflow_reference/>
@@ -1355,17 +1604,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>10</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:49:10</sys_created_on>
         <sys_id>878dfb1bc344b210063ffacc050131c1</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdA7si+F4SBAgbQBmiCXNhBWJGUTpURVpOy4gv+9Sz1so3HRBs2xN3OWu5wZ7cAdUa2pW6Mf1FJrsa7I4suTQ0RlMfzdkQpKThaEqooJI1SV9YBDtiBbW1jWdaO2nL1HjAldS9g/XijRjZCs4eP8GhqcYnhDFt0vJcGws/Cg8OfUp2GQhIHnBWnk50mY+wELgUOIAyXkXOLV1UTs3W2POL9lbPa1xbVpRLUez7fjlPsJVA2zrHzPIfzZ8Ipx5FOA1NwhJVQMjGr2R6ThwO4qeQI2ojI4jtjLz1r8wAeDOLYXC44SKR+Kx2M2WjbAxTUYQCotNW0zXqUbJSjXgzmMF9BKszrHhgt3tZU6tBjI5dStZFtWnwZHyHHA9IUQaTWS4LVVaqmPOor7jdp9nljeiKp3ZSxKRUEeT2DQu7w1lk9HuOQlDspKqGt0NLMbIPpm5FK6a4kHt5Bqh4/afXOBWuIuGgvuDeLXPfwIjbAqPuIYbB5o5qAFzfrdxHFoEycHh+i9XknQ+iQS3c2+t5biIHkUlw3+2BbaiNos8eUtH3UcnJerfrblXQfpVZRAkMyY73uzKAyTWZoGfJZeeVEU+Ok8orEL/caDzLQBww+Hr63nhQzGHLxMyFuNfV265hAXse/Fl9MVJZfSdSFXr4xU8IdI2e/5l4nyPO9/pP45UkJnQxBGbf3jb5ioJxuf4c2j11RopPZgsQ/Tf4wt7HG5BD2Hdqr5ZkWdsMNPQUfXL60GAAA=</values>
         <workflow_reference/>
@@ -1381,23 +1630,184 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>12</order>
+        <order>17</order>
         <outputs_assigned/>
         <parent_ui_id>a4517328-bd63-4ede-a36c-a1410b07b500</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:38:41</sys_created_on>
         <sys_id>e52b3757c344b210063ffacc05013176</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:40</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
         <ui_id>a1f62d15-5a07-421b-b4b7-3e25d0d42820</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQZCsyGh8KQIHAQqkDVCnubSBsCKpmCglqnzYcQX/e5eiZBuJ+zDaY2/i7HJ3drgDdUQ52zpr7tWVMeKpIfPPjxERjcfwuyMN1JzMCVUNE1aopuiBiKxBOh9YWrB88sUlScYmC6kMZ28xzIRpJWwffp1FV0IyzYeuLWisbbkm8+5FSDAsUiVQpZc0pdl0lk2TZPrmIi1nWZlOWQYcMiwooeQSUxcj3cltj0Q/ncNuW48bq0XzNJxvhyrLEVSaeVZpEhH+bHnDOPKpQBoekRoaBlbp7R7RHNhdIw/ASjQWyxGf/GzEd2w4zXOfWHEckfIQ3B+LQb0AV9dgAak4ap0eUulKCcpNEIfxCpy0i2MsJNy1ftRwxUIpx9tKurr5EBQh+wLjYyHiDJLgrZ/UUx/mqJYrtfk4srwRTa/KEJSKgtyfwKJ2pbOeT0e45DUWKmpoW1S0aLVai/4ycqnjJ4mHuJJqg039FsZAPfEYhYX4BvHrHn4ALfwU77EMXg40SzCCFv3GYjmUiZNdRMzWLCQYcxgS1S2+OU8xjDwMVwR9/BWqRWuvsPOaD3PsotcGONr9rlvgW1vOJkpPPrXMfxZpTJ1GgWxs/NLvdmHr89emOPf6eW65hLzK0yQ/7ZaL2Sm3nPDJmRaZ/sYi/n3+0CFJkvy3yF9bRJgiLPYwW9/8Hzrk0dsh9NxrTYVBavceezf+SXxgi8sl6DG0UfqrH+qA7X4AwUEZWZMGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">22838d73c38cf210063ffacc050131e8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:44</sys_created_on>
+        <sys_id>f2f44df3c38cf210063ffacc05013125</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
+        <ui_id>c71374c2-1292-44a7-b096-b026cf83017f</ui_id>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxvijCWteRkkpFLoV1tKXrZhrWU5EZcmT5KSZyX/flSUnYc1oy/bYt+jcr3Ou7yE9UZ1tO2vu1YUxfCnJ/PtjRLh0GP7uiYSGkTmhSlbcciWLAYjIGkTnAtfSsqUGF5pwM+ESqOVr9hlTKm5aAduH1zPpiotKszC9BY0zLNNk3v8R4hU2qhOo03Oa0jyb5VmSZJ/O0nKWl2lW5cAgx4YCSiYwdTHSntwMSPRXPXbbOtxYzeUyvG9Cl7sRVLpyrNIkIuzZMlkx5FODMCwiDcgKrNLbPaIZVLdSHIAVlxbbEZf8bPgvHJhNpy6xZiiRMh/cP4uwQQ/Xl2ABqXTUdjqk0pXilBm/nIrV0Am7OMZ8wm3rpPoSC6UYq5XoGvnVb4TsG4wfDJHOIAnWOqWOetBR363U5tvI8orLYSshKBQFsX+Bxd2VnXV8esIEa7BR0UDb4kaLVqs1H4qRSxMvBT7iWqgNDnXXGLsTUTLGxUJ8hfjlAD+A5k7FF2yDxZ5mCYbTYrhcbIdrYmQXEbM1CwHGHETidoufnaPoJQdxhd+PK6Gat/ZiOM6gYxe9NMKRB/p+4LwOtGJ/2Lvdjy5J8mro8NIObyt6nzPOYVpP02R62hlns1POOOGJd9ohe8UO7lu80Q1JknzY4Z/twE3hjzho88f0/9zw6E7fz9zvmnKD1O4ddj3+e7jAFo+L02Noo/STE3XAdr8BQuMX/4cGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a2838d73c38cf210063ffacc050131e9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>c71374c2-1292-44a7-b096-b026cf83017f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:45</sys_created_on>
+        <sys_id>f6f44df3c38cf210063ffacc05013126</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
+        <ui_id>e53d5f39-0f64-4ffe-a74f-95f982d97f95</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ae838d73c38cf210063ffacc050131e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</flow>
+        <flow_variables_assigned>active</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:44</sys_created_on>
+        <sys_id>fef44df3c38cf210063ffacc05013123</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 15:28:47</sys_updated_on>
+        <ui_id>5059c801-8be6-43ae-b4df-c2a3a5888e2e</ui_id>
+        <values>H4sIAAAAAAAA/+1V224aMRD9lchPrQTbhSXh0qcoCClS21QNzUsTrQbvLFj12htfAhTx7x2vF4hQ1PdKefMcj+dyzoy8Y9q72js719fWiqVik19PHSZUwOi8Y6JgE8Y6TEGFdALuxAuS/QLSByClcyFsLWH70EIlSBtc+ErIwmAbswZDIRwaNtmdXTU5rmCUjYphxrMRL/u9NL3KyhI4Ty/TXtYrOAWUsED5uojzoty2DvZCa4mgWuBL+2puPH6atbVpU4RK0g7DjUNVIJXQ1N1hFagCnDbbI2IQijslT8BKKBdpqWBjxR9KOkiDX4nUFMd4dzTzlqAIl1NwcO+M586b1pWvtOBoIx0FluClu3mNRYe72gmt4hMHC3l4raWv1LdIBjsGONejhadvq+Ut1Yl14CI013Za3q/0+sehkZlQDW3tpdQc5NEC54xYeBdK3jEv5udiROhNOVBiRWnzCupaqGVeG/0imlTUXJUsJRlJKfWaSgxjmgTJtUpIKEhmhE8b+AGMCLR8pTD0OKT8qcSzx9swYdmwzPr94rK7GI8H3cGgn3Xhapx1F30iJsXLXjpEtu8wu7U3Eqw9EUpK5s8+9BrpbVnKoxbhCTeidtdxDiekLR6wwEU7n3T6lx9loYFQF0ubLNF9N5pacNsPj2yT94bjbDjq5yuTGxR5mtD84dJA4CCP0R9Z56IR4uNntt/vn8KGRjLe9/h9j9/3+P/d4wK5sOQwD4zcHn7mcLGlvRH8NbTW5neg94Tt/wLVJHbs4wcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ad7ab717c344b210063ffacc05013139"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=ad7ab717c344b210063ffacc05013139"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ad7ab717c344b210063ffacc05013139^sys_idNOT INbef44df3c38cf210063ffacc05013117"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=37f322d5-b994-4423-a693-b2efa0e5107e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>active</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>active</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Reimbursement - Manager Approval">ad7ab717c344b210063ffacc05013139</model>
+        <model_id>ad7ab717c344b210063ffacc05013139</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_ad7ab717c344b210063ffacc05013139</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 13:39:44</sys_created_on>
+        <sys_id>bef44df3c38cf210063ffacc05013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 13:39:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ad7ab717c344b210063ffacc05013139^sys_idNOT IN297ab717c344b210063ffacc05013188,a17ab717c344b210063ffacc0501316e,e17ab717c344b210063ffacc05013175"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -1481,17 +1891,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bd7ab717c344b210063ffacc050131e7","name":"plan","plan_signature":null}}</plan>
         <plan_id>f1e6ffdfc304b210063ffacc050131cd</plan_id>
-        <snapshot>86440167c3c8b210063ffacc0501316b</snapshot>
+        <snapshot>0d1ed1b7c3003610063ffacc0501315e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 13:35:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd7ab717c344b210063ffacc050131e7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 18:55:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 15:28:48</sys_updated_on>
         <trigger display_value="">63c48c63c384b210063ffacc05013189</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f1e6ffdfc304b210063ffacc050131cd"/>
