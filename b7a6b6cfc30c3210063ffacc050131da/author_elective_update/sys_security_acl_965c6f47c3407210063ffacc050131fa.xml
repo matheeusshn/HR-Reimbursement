@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1793782_hr_rei_0_reimbursement</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[(function(){
+	if(!current.assignment_group)
+	return false;
+	return gs.getUser().isMemberOf(current.assignment_group.toString());
+})();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:58:24</sys_created_on>
+        <sys_id>965c6f47c3407210063ffacc050131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name>sys_security_acl_965c6f47c3407210063ffacc050131fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:58:24</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>965c6f47c3407210063ffacc050131fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:58:20</sys_created_on>
+        <sys_id>9bfcab47c3407210063ffacc05013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:58:20</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sys_security_acl_965c6f47c3407210063ffacc050131fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1793782_hr_rei_0_reimbursement&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	if(!current.assignment_group)
+	return false;
+	return gs.getUser().isMemberOf(current.assignment_group.toString());
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-22 17:58:24&lt;/sys_created_on&gt;&lt;sys_id&gt;965c6f47c3407210063ffacc050131fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1793782_hr_rei_0_reimbursement&lt;/sys_name&gt;&lt;sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0"&gt;b7a6b6cfc30c3210063ffacc050131da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HR Reimbursement"&gt;b7a6b6cfc30c3210063ffacc050131da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_965c6f47c3407210063ffacc050131fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-22 17:58:24&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;965c6f47c3407210063ffacc050131fa&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-22 17:58:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9bfcab47c3407210063ffacc05013156&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-22 17:58:20&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>712357273</payload_hash>
+        <record_name>x_1793782_hr_rei_0_reimbursement</record_name>
+        <reverted_from/>
+        <source>bba79b8bc38c3210063ffacc050131f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:58:24</sys_created_on>
+        <sys_id>d40dab87c3407210063ffacc05013113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997293aace0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:58:24</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d80dab87b7407210a037b0d525abe812</update_guid>
+        <update_guid_history>d80dab87b7407210a037b0d525abe812:712357273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 18:54:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>9e6e0b8ae40f4518ab64cb6a66711f04</sys_id>
+        <sys_metadata>965c6f47c3407210063ffacc050131fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent display_value="x_1793782_hr_rei_0_reimbursement">4f1bba07c34c3210063ffacc050131d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_965c6f47c3407210063ffacc050131fa</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_965c6f47c3407210063ffacc050131fa">d40dab87c3407210063ffacc05013113</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 18:54:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
