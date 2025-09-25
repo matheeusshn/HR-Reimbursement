@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.receipt_holder {&#13;
+  display: flex;&#13;
+  justify-content: center;&#13;
+}&#13;
+&#13;
+ &#13;
+#receipt_img {&#13;
+  border-radius: 10px;&#13;
+  background: #e0e0e0;&#13;
+  box-shadow:  6px 6px 12px #9f9f9f,&#13;
+             -6px -6px 12px #ffffff;&#13;
+  width:250px;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>receipt</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>receipt</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:32:40</sys_created_on>
+        <sys_id>246a9288c3903210063ffacc05013122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receipt</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name>sp_widget_246a9288c3903210063ffacc05013122</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:32:40</sys_updated_on>
+        <template><![CDATA[<div class = "receipt_holder">
+  <img src="" id="receipt_img" />
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="DELETE">
+        <id>246a9288c3903210063ffacc05013122</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:32:40</sys_created_on>
+        <sys_id>7faa5a48c3903210063ffacc0501312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:32:40</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sp_widget_246a9288c3903210063ffacc05013122</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.receipt_holder {&amp;#13;
+  display: flex;&amp;#13;
+  justify-content: center;&amp;#13;
+}&amp;#13;
+&amp;#13;
+ &amp;#13;
+#receipt_img {&amp;#13;
+  border-radius: 10px;&amp;#13;
+  background: #e0e0e0;&amp;#13;
+  box-shadow:  6px 6px 12px #9f9f9f,&amp;#13;
+             -6px -6px 12px #ffffff;&amp;#13;
+  width:250px;&amp;#13;
+}&amp;#13;
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;receipt&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;receipt&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-25 14:32:40&lt;/sys_created_on&gt;&lt;sys_id&gt;246a9288c3903210063ffacc05013122&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;receipt&lt;/sys_name&gt;&lt;sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0"&gt;b7a6b6cfc30c3210063ffacc050131da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HR Reimbursement"&gt;b7a6b6cfc30c3210063ffacc050131da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_246a9288c3903210063ffacc05013122&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-25 14:32:40&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class = "receipt_holder"&gt;
+  &lt;img src="" id="receipt_img" /&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;246a9288c3903210063ffacc05013122&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-25 14:32:40&lt;/sys_created_on&gt;&lt;sys_id&gt;7faa5a48c3903210063ffacc0501312b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-25 14:32:40&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1657270491</payload_hash>
+        <record_name>receipt</record_name>
+        <reverted_from/>
+        <source>dc5e4d2bc3c8b210063ffacc05013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:32:40</sys_created_on>
+        <sys_id>80ba5a88c3903210063ffacc05013110</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199814a66e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:32:40</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>84ba5a88f4903210a1c00c15a6da810f</update_guid>
+        <update_guid_history>84ba5a88f4903210a1c00c15a6da810f:1657270491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="receipt">644d5e0cc3903210063ffacc050131eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:43:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>6857ea980fdd489dbb598c6936194b39</sys_id>
+        <sys_metadata>246a9288c3903210063ffacc05013122</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receipt</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sp_widget_246a9288c3903210063ffacc05013122</sys_update_name>
+        <sys_update_version display_value="sp_widget_246a9288c3903210063ffacc05013122">80ba5a88c3903210063ffacc05013110</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 14:43:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
