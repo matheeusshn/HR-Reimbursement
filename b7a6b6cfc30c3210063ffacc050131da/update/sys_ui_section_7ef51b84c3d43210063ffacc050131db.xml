@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Integration" section_id="7ef51b84c3d43210063ffacc050131db" sys_domain="global" table="x_1793782_hr_rei_0_reimbursement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_state</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 18:52:24</sys_created_on>
+            <sys_id>64261f84c3d43210063ffacc050131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1793782_hr_rei_0_reimbursement" sys_domain="global" view="Default view">7ef51b84c3d43210063ffacc050131db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 18:52:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 18:52:24</sys_created_on>
+            <sys_id>6c261f84c3d43210063ffacc050131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1793782_hr_rei_0_reimbursement" sys_domain="global" view="Default view">7ef51b84c3d43210063ffacc050131db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 18:52:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_error_message</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 18:52:24</sys_created_on>
+            <sys_id>64261f84c3d43210063ffacc050131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1793782_hr_rei_0_reimbursement" sys_domain="global" view="Default view">7ef51b84c3d43210063ffacc050131db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 18:52:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Integration</caption>
+            <header>false</header>
+            <name>x_1793782_hr_rei_0_reimbursement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 18:51:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ef51b84c3d43210063ffacc050131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1793782_hr_rei_0_reimbursement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+            <sys_update_name>sys_ui_section_7ef51b84c3d43210063ffacc050131db</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 18:51:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
