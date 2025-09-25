@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 12:52:11</sys_created_on>
-        <sys_id>11dfa357c304b210063ffacc05013192</sys_id>
+        <sys_created_on>2025-09-25 13:01:57</sys_created_on>
+        <sys_id>8fe5c6ccc3103210063ffacc05013133</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>.x_1793782_hr_rei_0.Resolver</sys_name>
+        <sys_name>x_1793782_hr_rei_0_reimbursement.security_admin</sys_name>
         <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
         <sys_policy/>
         <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
-        <sys_security_acl display_value="x_1793782_hr_rei_0_reimbursement">d4df23d7c304b210063ffacc0501310d</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_11dfa357c304b210063ffacc05013192</sys_update_name>
+        <sys_security_acl display_value="x_1793782_hr_rei_0_reimbursement">06518208c3103210063ffacc050131c4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8fe5c6ccc3103210063ffacc05013133</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 12:52:11</sys_updated_on>
-        <sys_user_role display_value="x_1793782_hr_rei_0.Resolver" name="x_1793782_hr_rei_0.Resolver">7b250b43c38c3210063ffacc050131a8</sys_user_role>
+        <sys_updated_on>2025-09-25 13:01:57</sys_updated_on>
+        <sys_user_role display_value="security_admin" name="security_admin">b2d8f7130a0a0baa5bf52498ecaadeb4</sys_user_role>
     </sys_security_acl_role>
 </record_update>
