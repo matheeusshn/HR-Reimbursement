@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="amount" table="x_1793782_hr_rei_0_reimbursement">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Amount BRL</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Currency">currency</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>38</max_length>
+        <name>x_1793782_hr_rei_0_reimbursement</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 16:43:49</sys_created_on>
+        <sys_id>1b1fe13fc3403610063ffacc05013103</sys_id>
+        <sys_name>Amount BRL</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name>sys_dictionary_x_1793782_hr_rei_0_reimbursement_amount</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 16:45:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sys_dictionary_x_1793782_hr_rei_0_reimbursement_amount</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="amount" table="x_1793782_hr_rei_0_reimbursement"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Amount BRL</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>amount</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Currency">currency</internal_type><mandatory>false</mandatory><max_length>38</max_length><name>x_1793782_hr_rei_0_reimbursement</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-24 16:43:49</sys_created_on><sys_id>1b1fe13fc3403610063ffacc05013103</sys_id><sys_name>Amount BRL</sys_name><sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package><sys_policy/><sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope><sys_update_name>sys_dictionary_x_1793782_hr_rei_0_reimbursement_amount</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-24 16:45:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1523820607</payload_hash>
+        <record_name>Reimbursement.Amount BRL</record_name>
+        <reverted_from/>
+        <source>dc5e4d2bc3c8b210063ffacc05013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 16:45:07</sys_created_on>
+        <sys_id>6e6fad3fc3403610063ffacc0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1997c9d4deb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 16:45:07</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>266fad3fd3403610bdfe8f005d3c185c</update_guid>
+        <update_guid_history>266fad3fd3403610bdfe8f005d3c185c:1523820607,966fad3f27403610d5a2c208cfa5774e:-1728706753,131f253f624036105209dd3f08800308:-749456248,1b1fe13f564036102d9d52566fc2629a:1675588433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 16:48:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>01b92bb6b91e47eca059fb60572f6da9</sys_id>
+        <sys_metadata>1b1fe13fc3403610063ffacc05013103</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amount BRL</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent display_value="Reimbursement">831bba07c34c3210063ffacc050131c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1793782_hr_rei_0_reimbursement_amount</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1793782_hr_rei_0_reimbursement_amount">6e6fad3fc3403610063ffacc0501315c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 16:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
