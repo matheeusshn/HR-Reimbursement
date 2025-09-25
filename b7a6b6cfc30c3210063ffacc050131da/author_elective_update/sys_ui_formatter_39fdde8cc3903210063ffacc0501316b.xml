@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>x_1793782_hr_rei_0_receipt</formatter>
+        <name>receipt</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 14:48:35</sys_created_on>
+        <sys_id>39fdde8cc3903210063ffacc0501316b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>receipt</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_update_name>sys_ui_formatter_39fdde8cc3903210063ffacc0501316b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:31:19</sys_updated_on>
+        <table>x_1793782_hr_rei_0_reimbursement</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</application>
+        <file_path/>
+        <instance_id>1ddc8f911b0a02507d9d2f8dee4bcb55</instance_id>
+        <instance_name>dev265349</instance_name>
+        <name>sys_ui_formatter_39fdde8cc3903210063ffacc0501316b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>x_1793782_hr_rei_0_receipt</formatter><name>receipt</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-25 14:48:35</sys_created_on><sys_id>39fdde8cc3903210063ffacc0501316b</sys_id><sys_mod_count>7</sys_mod_count><sys_name>receipt</sys_name><sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package><sys_policy/><sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope><sys_update_name>sys_ui_formatter_39fdde8cc3903210063ffacc0501316b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-25 15:31:19</sys_updated_on><table>x_1793782_hr_rei_0_reimbursement</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>-1839889021</payload_hash>
+        <record_name>receipt</record_name>
+        <reverted_from/>
+        <source>dc5e4d2bc3c8b210063ffacc05013160</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 15:31:19</sys_created_on>
+        <sys_id>c7186608c3d03210063ffacc0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199818018550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:31:19</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>4f186608ded032105d4b744dfee4539d</update_guid>
+        <update_guid_history>4f186608ded032105d4b744dfee4539d:-1839889021,28c52208ced0321062f2838ce33027cf:897979628,59b56a0812d03210b11da9707594116b:-1839889021,3b24a28454d03210ce8e396f495567d4:897979628,6ae3e284f5d0321028e41e21ea498722:-1839889021,c032a6c0ccd03210fb4b5cd0a0379472:897979628,16fe56cc8f9032101129b266ae49ffb5:-1839889021,015e5e0ce49032109f96a92d3bc346a8:897979628</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 15:31:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>62cc995795e840e0b7efa54088539a40</sys_id>
+        <sys_metadata>39fdde8cc3903210063ffacc0501316b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>receipt</sys_name>
+        <sys_package display_value="HR Reimbursement" source="x_1793782_hr_rei_0">b7a6b6cfc30c3210063ffacc050131da</sys_package>
+        <sys_parent display_value="Reimbursement">831bba07c34c3210063ffacc050131c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HR Reimbursement">b7a6b6cfc30c3210063ffacc050131da</sys_scope>
+        <sys_scope_delete display_value="">5fb7384fc1a44848955dca42e65f8d90</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_39fdde8cc3903210063ffacc0501316b</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_39fdde8cc3903210063ffacc0501316b">c7186608c3d03210063ffacc0501319e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 15:31:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
